@@ -1,0 +1,159 @@
+$app-background: #fff;
+
+$incorrect-highlight: red;
+$correct-highlight: green;
+
+$white: #fff;
+$black: #000;
+
+////////---- UPDATE FROM TXT FILE ----////////
+
+$btw-secondary-colour-forRGBA: #E25D22;
+
+////////---- END UPDATE FROM TXT FILE ----////////
+
+//MAIN COLOURS
+$btw-main-colour: var(--primary);
+$btw-secondary-colour: var(--secondary);
+$btw-grey: var(--grey);
+$btw-grey-2: var(--grey2);
+
+//alpha versions of colours
+$btw-main-alpha: 0.65;
+
+//preloader
+$btw-preloader-background: $white;
+$btw-preloader-colour: $black; //var(--btwpreloaderspincolour); //$btw-main-colour;
+$btw-preloader-colour-faded: rgba($black, 0.15); //rgba($btw-secondary-colour-forRGBA, 0.4);
+
+//menu items etc with start colour different
+$btw-split-text-main: $btw-main-colour;
+$btw-split-text: var(--btwsplittext); //$btw-secondary-colour;
+//side menu
+$highlight: $black;
+
+//components / screens
+$btw-container-background: var(--btwcontainerbackground); //$white;
+$btw-background-colour: var(--btwbackgroundcolour); //$btw-grey;
+
+//'side' content
+$btw-background-side-colour: var(--btwbackgroundsidecolour); //$btw-main-colour;
+$btw-background-side-text-colour: var(--btwbackgroundsidetextcolour); //$white;
+$btw-link-background-colour: var(--btwlinkbackgroundcolour); //$white; 
+$btw-link-hover-background-colour: var(--btwlinkhoverbackgroundcolour); //$btw-secondary-colour;
+
+//mobile
+$btw-mobiletop-colour: var(--btwmobiletopcolour); //$btw-grey;
+$btw-mobileheader-colour: var(--btwmobileheadercolour); //$btw-grey;
+$btw-mobiledivider-colour: var(--btwmobiledividercolour); //$btw-main-colour;
+
+//font colours
+$btw-topic-title-colour: var(--btwtopictitlecolour); //$btw-main-colour;
+$btw-title-colour: var(--btwtitlecolour); //$btw-main-colour;
+$btw-body-colour: var(--btwbodycolour); //$btw-main-colour;
+$btw-link-colour: var(--btwlinkcolour); //$btw-body-colour;
+$btw-link-hover-colour: var(--btwlinkhovercolour); //$white; 
+
+//splash
+$btw-splash-title-colour: var(--btwsplashtitlecolour); //$btw-main-colour;
+
+//menu
+$btw-menu-active-colour: var(--btwmenuactivecolour); //$btw-main-colour;
+$btw-menu-active-text-colour: var(--btwmenuactivetextcolour); //$white;
+$btw-menu-hover-tile: var(--btwmenuhovertile); //$btw-secondary-colour;
+
+//help 
+$btw-help-main: $btw-grey;
+
+//resources 
+$btw-resources-main: $btw-grey;
+$btw-resources-link-colour: var(--btwresourceslinkcolour); //$btw-body-colour; //(resources)
+$btw-resources-link-hover-colour: var(--btwresourceslinkhovercolour);
+//behind checklist image
+$btw-resources-imglink-colour: var(--btwresourcesimglinkcolour); //$white; 
+$btw-resources-imglink-hover-colour: var(--btwresourcesimglinkhovercolour); //$btw-main-colour;
+$btw-resources-imglink-border-colour: var(--btwresourcesimglinkbordercolour); //$btw-secondary-colour;
+$btw-resources-imglink-border-hover-colour: var(--btwresourcesimglinkborderhovercolour); //$black;
+
+//complete
+$btw-complete-top: $btw-grey;
+
+//selectables i.e. itinerary numbers
+$btw-selectable: var(--btwselectable); //$btw-main-colour;
+$btw-selectable-visited: var(--btwselectablevisited); //$btw-secondary-colour;
+
+//progress dots
+$btw-progress-bar: var(--btwprogressbar); //$btw-main-colour;
+$btw-progress-dot: var(--btwprogressdot); //$white;
+$btw-progress-dot-visited: var(--btwprogressdotvisited); //$btw-split-text-secondary;
+
+//popup/notify
+$popup-bg: var(--popupbg); //$white;
+
+//buttons
+$btw-btn-bg: var(--btwbtnbg); //$btw-main-colour;
+$btw-btn-colour: var(--btwbtncolour); //$white;
+$btw-btn-hover-bg: var(--btwbtnhoverbg); //$btw-secondary-colour;
+$btw-btn-hover-colour: var(--btwbtnhovercolour); //$btw-main-colour;
+
+//scrollbars
+$scrollbar-colour: $btw-secondary-colour;
+$scrollbar-base-colour: $btw-main-colour;
+$scrollbar-content-colour: $btw-grey;
+$scrollbar-base-content-colour: $black; 
+
+//COMPONENTS
+
+//text-image
+$btw-text-intro-bg-colour: var(--btwtextintrobgcolour); //$btw-main-colour;
+$btw-text-intro-text-colour: var(--btwtextintrotextcolour); //$white;
+$btw-text-intro-link-colour: var(--btwtextintrolinkcolour); 
+$btw-text-intro-link-hover-colour: var(--btwtextintrolinkhovercolour);
+
+//carousel
+$btw-coursel-nav-bg: var(--btwcourselnavbg); //$btw-secondary-colour;
+$btw-coursel-nav-hover-bg: var(--btwcourselnavhoverbg); //$white;
+
+//media
+$btw-media-overlay-bg-colour: var(--btwmediaoverlaybgcolour); //$btw-main-colour;
+$btw-media-overlay-text-colour: var(--btwmediaoverlaytextcolour); //$white;
+$btw-media-progress-bg-colour: var(--btwmediaprogressbgcolour); //$white;
+$btw-media-progress-fill-colour: var(--btwmediaprogressfillcolour); //$btw-secondary-colour;
+$btw-replay-bg-colour: rgba($black, 0.8);
+$btw-replay-bg-colour-hover: rgba($black, 0.7);
+$btw-replay-colour: var(--btwreplaycolour); //$white;
+$btw-replay-colour-hover: var(--btwreplaycolourhover); //$btw-secondary-colour;
+$btw-link-media-colour: var(--btwlinkmediacolour); //$btw-secondary-colour;
+$btw-link-hover-media-colour: var(--btwlinkhovermediacolour); //$white; 
+
+//quiz
+$btw-quiz-main-bg: $btw-grey-2;
+$btw-quiz-background-colour: $btw-grey;
+$btw-quiz-option-bg: var(--btwquizoptionbg); //$white;
+$btw-quiz-option-colour: var(--btwquizoptioncolour); //$btw-main-colour;
+$btw-quiz-option-bg-selected: var(--btwquizoptionbgselected); //$btw-main-colour;
+$btw-quiz-option-colour-selected: var(--btwquizoptioncolourselected); //$white;
+
+
+
+
+/* NON-BTW COMPONENTS */
+
+$primary-colour: #333;
+$grey: #f2f2f2;
+
+/* side menu */
+$menu-title-background: $black;
+$menu-title-text: $white;
+$menu-background: $white;
+$menu-items: $primary-colour;
+
+/* menu (not tiled) */
+$menu-tile-progress: $black;
+$menu-tile-progress-fill: $grey;
+
+
+
+
+
+
