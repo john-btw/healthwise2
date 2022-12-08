@@ -471,7 +471,7 @@
             "title": "Pre-travel",
             "text": "<p>Click on each of the four sections to find out more information</p>",
             "_image": "images/menu/menu_mobile_1.jpg",
-            "_optional": true,
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "next": {
@@ -550,13 +550,13 @@
                      "ins": "<p></p>",
                      "slides": [
                         {
-                           "title": "All destinations",
+                           "title": "All Destinations",
                            "body": "<p>It is important that your routine vaccinations are kept up to date; these include diphtheria, tetanus, polio and the seasonal flu jab.</p><p>You should also consider general travel vaccinations for all destinations, particularly Hepatitis A & B and Typhoid.</p><p>Carry a record of your vaccinations and have a copy or scan of this information accessible.</p>",
                            "_image": "images/s01_04/s01_04_1.jpg",
                            "_imageMobile": "images/s01_04/s01_04_1.jpg"
                         },
                         {
-                           "title": "Yellow fever",
+                           "title": "Yellow Fever",
                            "body": "<p>Yellow fever is a serious viral infection that is spread through mosquito bites. The vaccination should be given at least 10 days before travel and reliably protects against a potentially fatal tropical disease.</p><p>An additional and important consideration is that entry to some countries requires a proof of yellow fever vaccination in the form of a World Health Organisation approved certificate. Check requirements before travel as some destinations may require the certificate even if they are free of the disease.</p>",
                            "_image": "images/s01_04/s01_04_2.jpg",
                            "_imageMobile": "images/s01_04/s01_04_2.jpg"
@@ -583,7 +583,7 @@
             "title": "Insect-borne diseases and malaria",
             "text": "<p>Click on each of the four sections to find out more information</p>",
             "_image": "images/menu/menu_mobile_2.jpg",
-            "_optional": true,
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "prev": {
@@ -701,7 +701,7 @@
             "title": "Environmental considerations",
             "text": "<p>Click on each of the two sections to find out more information</p>",
             "_image": "images/menu/menu_mobile_3.jpg",
-            "_optional": true,
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "prev": {
@@ -744,7 +744,7 @@
             "title": "Personal wellbeing",
             "text": "<p>Click on each of the two sections to find out more information</p>",
             "_image": "images/menu/menu_mobile_4.jpg",
-            "_optional": true,
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "prev": {
@@ -939,7 +939,7 @@
                   }
                }
             ],
-            "_locked": false,
+            "_locked": true,
             "_unlockedBy": [
                "/pretravel",
                "/insectborne",
