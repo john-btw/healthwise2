@@ -77,17 +77,17 @@ export default new Vuex.Store({
         newlang = state.language;
       }
       //set the content for the lang being updated
-      switch(newlang) {
-        case 'de': 
-          myObjStr = JSON.stringify(Content.de);
-          break;
-        case 'es': 
-          myObjStr = JSON.stringify(Content.es);
-          break;
+      // switch(newlang) {
+      //   case 'de': 
+      //     myObjStr = JSON.stringify(Content.de);
+      //     break;
+      //   case 'es': 
+      //     myObjStr = JSON.stringify(Content.es);
+      //     break;
         // case 'fr': 
         //   myObjStr = JSON.stringify(Content.fr);
         //   break;
-      }
+      //}
       const content = JSON.parse(myObjStr);
       state.courseContent = content;
       //set the lnaguge for next time
@@ -767,7 +767,7 @@ export default new Vuex.Store({
      //------- DEVICES ------//
      setDevice: (state, getters) => (_device: string) => {
       Vue.set(state, 'device', _device);
-      getters.write;
+      //getters.write;
     },
 
     setOrientation: (state, getters) => (_orient: string) => {

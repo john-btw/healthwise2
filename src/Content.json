@@ -5,16 +5,16 @@
       "_css": false,
       "label": "English",
       "config": {
-         "coursesuite": "Health Wise",
-         "coursename": "HealthWise",
-         "courseid": "healthwise-gen",
+         "coursesuite": "Road Wise<br/>road safety course",
+         "coursename": "Road Wise",
+         "courseid": "roadwise",
          "lms": false,
          "defaultlang": "en"
       },
       "global": {
          "_alllocked": false,
          "_assessment": true,
-         "_assessAttempts": "100",
+         "_assessAttempts": "",
          "_accessibility": {
             "splashtitle": "Splash screen",
             "bookmarktitle": "Bookmarking",
@@ -73,12 +73,12 @@
          "splash": {
             "_display": true,
             "_type": "btw",
-            "title": "health and malaria awareness course",
+            "title": "",
             "ins": "Select anywhere |to start the course",
             "_images": {
-               "_small1": "images/splash/splash_image01.png",
-               "_small2": "images/splash/splash_image02.png",
-               "_small3": "images/splash/splash_image03.png",
+               "_small1": "images/splash/WS_splash_image1.png",
+               "_small2": "images/splash/WS_splash_image2.png",
+               "_small3": "images/splash/WS_splash_image3.png",
                "_characters": "images/splash/splash_people.png"
             }
          },
@@ -119,108 +119,41 @@
             ]
          },
          "resources": {
-            "title": "Resources ",
-            "body": "In addition to information that your company or assistance/information provider may supply, there is a wealth of travel information freely available from government and other sites, some of which are listed below.",
+            "title": "Resources",
+            "body": "",
+            "footer": "Contact details for further information +1-xxxx-xxx-xxxx and: security@xxxxxxxxx.com",
             "_links": [
                {
                   "_type": "title",
-                  "title": "Government travel advice"
-               },
-               {
-                  "_type": "link",
-                  "title": "United Kingdom",
-                  "_href": "https://www.gov.uk/foreign-travel-advice"
-               },
-               {
-                  "_type": "link",
-                  "title": "United States of America",
-                  "_href": "https://www.state.gov/travelers/"
-               },
-               {
-                  "_type": "link",
-                  "title": "Australia",
-                  "_href": "https://smartraveller.gov.au/Pages/default.aspx"
-               },
-               {
-                  "_type": "link",
-                  "title": "France",
-                  "_href": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/"
-               },
-               {
-                  "_type": "link",
-                  "title": "Deutschland",
-                  "_href": "https://www.auswaertiges-amt.de/de/aussenpolitik/laender"
-               },
-               {
-                  "_type": "link",
-                  "title": "Espa\u00F1a",
-                  "_href": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Recomendaciones-de-viaje.aspx"
+                  "title": "Select a link for more information"
                },
                {
                   "_type": "title",
-                  "title": "Health and Vaccinations"
+                  "title": "Resource Links might include:"
                },
                {
                   "_type": "link",
-                  "title": "Centres for Disease Control and Prevention (CDC) - USA",
-                  "_href": "https://www.who.int/ith/en/"
+                  "title": "Your Organization Security Intranet Page",
+                  "_href": "https://betravelwise.com/"
                },
                {
                   "_type": "link",
-                  "title": "TravelHealthPro - UK",
-                  "_href": "http://travelhealthpro.org.uk/"
+                  "title": "Your Organization Security Policy",
+                  "_href": "https://betravelwise.com/"
                },
                {
                   "_type": "link",
-                  "title": "Links to other national travel and health websites",
-                  "_href": "https://www.who.int/ith/links/national_links/en/"
-               },
-               {
-                  "_type": "title",
-                  "title": "Women Travellers"
-               },
-               {
-                  "_type": "link",
-                  "title": "Australian Government",
-                  "_href": "https://www.smartraveller.gov.au/before-you-go/who-you-are/women"
-               },
-               {
-                  "_type": "link",
-                  "title": "Canadian Government",
-                  "_href": "https://travel.gc.ca/travelling/publications/her-own-way"
-               },
-               {
-                  "_type": "link",
-                  "title": "Suzy Lamplugh Trust",
-                  "_href": "https://www.suzylamplugh.org/Pages/Category/personal-safety-advice"
-               },
-               {
-                  "_type": "title",
-                  "title": "LGBT+ Travellers"
-               },
-               {
-                  "_type": "link",
-                  "title": "US Government",
-                  "_href": "https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/lgbti.html"
-               },
-               {
-                  "_type": "link",
-                  "title": "Equaldex",
-                  "_href": "https://www.equaldex.com/"
-               },
-               {
-                  "_type": "link",
-                  "title": "Travelling with HIV",
-                  "_href": "http://www.hivtravel.org/"
+                  "title": "Your Assistance Provider Details",
+                  "_href": "https://betravelwise.com/"
                },
                {
                   "_type": "image-link",
                   "title": "Download our handy checklist and print it two-sided",
-                  "_href": "pdfs/Travelwise_Checklist.pdf",
+                  "_href": "pdfs/WSLS_Checklist.pdf",
                   "_image": "images/checklist.png",
                   "_pos": [
-                     "75%",
-                     "78%",
+                     "45%",
+                     "80%",
                      "35%"
                   ],
                   "_mobilePos": [
@@ -228,6 +161,18 @@
                      "50%",
                      "100%"
                   ]
+               },
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               },
+               {
                }
             ]
          },
@@ -236,7 +181,7 @@
             "body": "<p>Select your preferred language below:</p>"
          },
          "complete": {
-            "body": "<p>Summary</p><p>Remember\u2026</p><p>\u2022\tIt is important to have pre-travel health checks\n\u2022\tPre-existing conditions and accidents cause many more medical emergencies than infectious diseases\n\u2022\tThoroughly prepare for your trip, understand the risks and take appropriate precautions\n\u2022\tRemember personal hygiene, especially hand washing, and food and water safety\n\u2022\tHave a number to call in an emergency (work, insurance or assistance) - save this in your phone and also carry an emergency card with the details\n\u2022\tConsider a first aid course and carry a first aid kit\n\u2022\tSeek advice about medical providers when abroad, standards vary enormously</p><p>You can print this summary from the resources section on the main menu.</p>"
+            "body": "<p>Congratulations!</p><p>You\u2019ve reached the end of the course.</p><p>Close the browser to exit the course.</p><p>Close the browser to exit the course.</p>"
          },
          "header": {
             "_display": false,
@@ -283,7 +228,7 @@
             "text": "Congrats! \u2026",
             "_image": "images/splash/splash_people.png",
             "_link": {
-               "_url": "pdfs/BTW_Healthwise_Checklist.pdf",
+               "_url": "pdfs/Travelwise.pdf",
                "_image": "images/checklist.png"
             }
          },
@@ -291,130 +236,132 @@
             {
                "_images": [
                   {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image01.jpg"
+                  },
+                  {
                      "_type": "selectable",
-                     "_image": "images/menu/pretravel/5sNZEfjXUOM_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/introduction/WS_01_00_Intro_menu01.jpg",
                      "_id": "010-010"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5a6nDU5ICA5_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image02.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image03.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image04.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image05.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/pretravel/5xM48Np2GTe_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/introduction/WS_01_00_Intro_menu02.jpg",
                      "_id": "010-020"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5eQhUInhotk_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/pretravel/pretravel.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6FV10sejkhi_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image06.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_id": "010-030",
-                     "_image": "images/menu/pretravel/5kEN2vEijGS_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6GUqKqA51Fq_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_id": "010-040",
-                     "_image": "images/menu/pretravel/6K8Kc7WXI6z_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/introduction/WS_01_00_Intro_menu03.jpg",
+                     "_id": "010-030"
                   }
                ]
             },
             {
                "_images": [
                   {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6SC7MYdGMOI_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
                      "_type": "selectable",
-                     "_id": "020-010",
-                     "_image": "images/menu/insectborne/5sHN9YCmwZL_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/beprepared/WS_02_00_beprep_menu01.jpg",
+                     "_id": "020-010"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6CtK7L6fHVd_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image01.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/insectborne/5fnLNVeMny4_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/beprepared/WS_02_00_beprep_menu02.jpg",
                      "_id": "020-020"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/insectborne/insectborne.png"
+                     "_image": "images/menu/WS_menu_image03.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image02.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image04.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/insectborne/5jiDLn8hoHP_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/beprepared/WS_02_00_beprep_menu03.jpg",
                      "_id": "020-030"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/61dnGKgxMWZ_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image05.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/insectborne/6hHDW64yUX4_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/beprepared/WS_02_00_beprep_menu04.jpg",
                      "_id": "020-040"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6XErHyjIF5F_DX680_DY680_CX340_CY265.png"
                   }
                ]
             },
             {
                "_images": [
                   {
+                     "_type": "selectable",
+                     "_image": "images/menu/beaware/WS03_00_beaware_menu01.jpg",
+                     "_id": "030-010"
+                  },
+                  {
                      "_type": "placeholder",
-                     "_image": "images/menu/5efm5vF5wNe_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image01.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_id": "030-010",
-                     "_image": "images/menu/environmental/5y9In3cCb6G_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/604xErk5ghZ_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6Yq4tPnKOyO_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/environmental/environmental.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6dhdu1nRijg_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/5djzmWdu4fc_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/environmental/6Ii4ugsH1oo_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/beaware/WS03_00_beaware_menu02.jpg",
                      "_id": "030-020"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6lPbePphJzB_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image03.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image06.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image04.jpg"
+                  },
+                  {
+                     "_type": "selectable",
+                     "_image": "images/menu/beaware/WS03_00_beaware_menu03.jpg",
+                     "_id": "030-030"
+                  },
+                  {
+                     "_type": "selectable",
+                     "_image": "images/menu/beaware/WS03_00_beaware_menu04.jpg",
+                     "_id": "030-040"
+                  },
+                  {
+                     "_type": "selectable",
+                     "_image": "images/menu/beaware/WS03_00_beaware_menu05.jpg",
+                     "_id": "030-050"
                   }
                ]
             },
@@ -422,61 +369,62 @@
                "_images": [
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/64zC90qSUqI_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6YNmzlw4HQd_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6loZNyeMAzF_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image01.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/personal/6VQqHPTYv8v_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/beready/WS_04_00_beready_menu01.jpg",
                      "_id": "040-010"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/personal/personal.png"
+                     "_image": "images/menu/WS_menu_image02.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image03.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image06.jpg"
+                  },
+                  {
+                     "_type": "placeholder",
+                     "_image": "images/menu/WS_menu_image04.jpg"
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/personal/6OPvyWiYPSi_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/beready/WS_04_00_beready_menu02.jpg",
                      "_id": "040-020"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5hMfNMZkr7v_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/WS_menu_image05.jpg"
                   },
                   {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6hvd9n3H36L_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6pMisgqDIJ1_DX680_DY680_CX340_CY265.png"
+                     "_type": "selectable",
+                     "_image": "images/menu/beready/WS_04_00_beready_menu03.jpg",
+                     "_id": "040-030"
                   }
                ]
             },
             {
-               "_lockedInfo": "<p>Complete the four topics first</p>"
+               "_id": "040-030"
             }
          ]
       },
       "topics": [
          {
-            "_uri": "/pretravel",
-            "title": "Pre-travel",
-            "text": "<p>Click on each of the four sections to find out more information</p>",
-            "_image": "images/menu/menu_mobile_1.jpg",
-            "_optional": true,
+            "_uri": "/intro",
+            "title": "Introduction",
+            "text": "<p>Click on each of the two sections to find out more information</p>",
+            "_image": "images/menu/WS_menu_image01.jpg",
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "next": {
-                  "title": "Insect borne diseases and Malaria",
-                  "_uri": "/insectborne"
+                  "title": "Pre-travel",
+                  "_uri": "/pretravel"
                }
             },
             "pages": [
@@ -484,106 +432,92 @@
                   "_id": "010-010",
                   "_component": "text-image",
                   "content": {
-                     "title": "Why be health wise?",
-                     "body": "<p>Most serious travel health problems are due to pre-existing\nconditions. Also, accidents account for far more medical\nissues with travellers than infectious diseases. Whatever your\ndestination there are practical steps you can take to ensure\nyou have a healthy and stress-free trip.</p><p>Whilst this course is designed to make you aware of the most common health issues travellers face, always bear in mind: Have regular health check-ups (medical and dental)<ul><li>Speak to your doctor before travel if you have a pre-existing\nmedical condition, are pregnant or to ask if you are at\nheightened risk of certain conditions (for example DVT, or\nheart problems)</li><li>General conservative behaviour has health benefits, modest\ndress prevents insect bites, modest alcohol intake prevents\nthe accidents that often occur with intoxication</li><li>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases </li><li>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases</li></ul></p><p>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases</p>",
-                     "_image": "images/01_01_image.jpg",
-                     "_imageMobile": "images/01_01_image_mobile.jpg",
-                     "_alt": "A helicopter landing pad"
+                     "title": "Why be Road Wise?",
+                     "body": "<p>Nearly all business travel involves movement by road. The road is where we face the greatest risk of serious injury, trauma or death. In some locations, traffic incidents can also have a serious security implication.<ul><li>There is a lot we can do to minimize risk when we travel by vehicle, starting with these simple measures:</li><li>Avoid two or three wheeled modes of transport</li><li>Always wear a seat belt </li><li>Reduce your speed or ask the driver to slow down</li><li>When being driven, sit in the back of the vehicle</li><li>When being driven, sit in the back of the vehicle</li><li>When being driven, sit in the back of the vehicle</li></ul></p><p class=\\'flexbox flexbox-row\\'><span class=\\'btw-resources-icon text\\'></span><span>When being driven, sit in the back of the vehicle When being driven, sit in the back of the vehicle<ul><li>When being driven, sit in the back of the vehicle</li><li>When being driven, sit in the back of the vehicle</li><li>When being driven, sit in the back of the vehicle</li><li>When being driven, sit in the back of the vehicle</li><li>When being driven, sit in the back of the vehicle</li><li>When being driven, sit in the back of the vehicle</li></ul></span></p>",
+                     "_image": "images/01_01_Intro_image1.jpg",
+                     "_imageMobile": "images/01_01_Intro_image1_mobile.jpg"
                   }
                },
                {
                   "_id": "010-020",
-                  "_component": "text-image",
+                  "_component": "click-reveal-checks"
+               }
+            ]
+         },
+         {
+            "_uri": "/prepared",
+            "title": "Pre-travel",
+            "text": "<p>Click on each of the three sections to find out more information</p>",
+            "_image": "images/menu/WS_menu_image02.jpg",
+            "_optional": false,
+            "_component": "horizontal",
+            "_navigation": {
+               "prev": {
+                  "title": "Introduction",
+                  "_uri": "/intro"
+               },
+               "next": {
+                  "title": "Vehicle and journey preparation",
+                  "_uri": "/preparation"
+               }
+            },
+            "pages": [
+               {
+                  "_id": "020-010",
+                  "_component": "carousel"
+               },
+               {
+                  "_id": "020-020",
+                  "_component": "media",
                   "content": {
-                     "title": "Research",
-                     "body": "<p>When researching your trip, look at the medical risks for\nyour destination.</p><p>A list of these websites is in the resources section. These\nwill inform you about what health risks exist at your\ndestination and allow you to have an informed discussion\nwith your doctor or travel health clinic. If you don't have access to a medical information\nservice there are many government sites that can\nadvise you.</p>",
-                     "_image": "images/01_02_image.jpg",
-                     "_imageMobile": "images/01_02_image_mobile.jpg",
-                     "_alt": "a map of travel health on computer screen"
+                     "title": "Access control and tailgating",
+                     "_video": {
+                        "_src": "video/s02_02.mp4",
+                        "_poster": "video/s02_02.png",
+                        "_vtt": "video/s02_02.vtt"
+                     }
                   }
                },
                {
-                  "_id": "010-030",
-                  "_component": "click-reveal-icons",
+                  "_id": "020-030",
+                  "_component": "click-reveal-images",
                   "content": {
-                     "content": "<p>Minimise health problems when travelling by ensuring  you are in the best shape before you go and take all necessary steps to protect yourself.</p>",
-                     "ins": "<p>Select the <strong>icons</strong> for more information.</p>",
-                     "title": "Checks",
-                     "body": "<p> </p>",
-                     "_image": "images/s01_03/s01_03.jpg",
-                     "_imageMobile": "images/s01_03/s01_03.jpg",
-                     "_rows": 1,
+                     "title": "Know before you go",
+                     "body": "<strong>Select the images for more information.</strong>",
                      "reveals": [
                         {
-                           "title": "Medical Check",
-                           "content": "<p>Visit your doctor to travel health clinic 4-6 weeks prior to departure. Have a thorough check, especially if your destination country has poor medical infrastructure, extremes of weathere or is at altitude.</p>",
-                           "_image": "images/s01_03/s01_03_1.png",
-                           "_imageVisited": "images/s01_03/s01_03_1_visited.png"
+                           "title": "Know Before You Go ",
+                           "content": "<p class=\\'flexbox flexbox-row\\'><span class=\\'btw-resources-icon images\\'></span>Always use the approved booking tool for your region or locality when planning for both air and rail travel, as well as hotel reservations.</span></p><p>Research and monitor your destination by making use of our Assistance portal or contact the GSOC. They can provide security, safety, cultural and medical information and recommendations about your destination.</p><p>This will give you the key information you need to know about your trip, helping you plan and prepare effectively with risk mitigation in mind. This information includes the types of vaccinations you may require.</p><p>If you are a first-time traveler, or should you need additional information, contact the GSOC for assistance.</p><p>More Travel Security tips and advice can be found in the Travel Safety Course.</p>",
+                           "_image": "images/s02_03/02_01_know_before_image1.jpg"
                         },
                         {
-                           "title": "Pre-existing conditions and pregnancy",
-                           "content": "<p>If you have a pre-existing medical condition or are pregnant seek advice about specific travel precautions you should consider and also special measures you should take if entering a higher medical risk area.</p>",
-                           "_image": "images/s01_03/s01_03_2.png",
-                           "_imageVisited": "images/s01_03/s01_03_2_visited.png"
-                        },
-                        {
-                           "title": "Infectious diseases",
-                           "content": "<p>During your check ask about infectious diseases at your destination and whether there are vaccinations or prevention measures you can take to protect yourself. </p>",
-                           "_image": "images/s01_03/s01_03_3.png",
-                           "_imageVisited": "images/s01_03/s01_03_3_visited.png"
-                        },
-                        {
-                           "title": "Dental check",
-                           "content": "<p>Have regular dental check-ups, whilst dental problems aren't generally life threatening they can be debilitating on a business trip and local dental standards can vary greatly.</p>",
-                           "_image": "images/s01_03/s01_03_4.png",
-                           "_imageVisited": "images/s01_03/s01_03_4_visited.png"
+                           "title": "Higher risk destinations ",
+                           "content": "<p>Some locations have a higher risk than others and require special arrangements or business approval prior to travel. If you attempt to book travel to these destinations, you will receive an email notification to contact the GSOC for security advice and assistance.</p><p>More information about country risk and assistance from the GSOC can be found in the Resources section.</p>",
+                           "_image": "images/s02_03/02_01_know_before_image2.jpg"
                         }
                      ]
                   }
                },
                {
-                  "_id": "010-040",
-                  "_component": "carousel",
+                  "_id": "020-040",
+                  "_component": "media",
                   "content": {
-                     "title": "Vaccinations",
-                     "body": "<p>Vaccinations are a highly effective measure to prevent certain infectious diseases. There are generally very safe and adverse reactions are unusual.</p><p class=\\'flexbox flexbox-row\\'><span class=\\'btw-resources-icon white\\'></span><span>Some vaccinations are important for all travel, others may be required or advisable dependent upon your job or location you are visiting.</span></p>",
-                     "ins": "<p></p>",
-                     "slides": [
-                        {
-                           "title": "All Destinations",
-                           "body": "<p>It is important that your routine vaccinations are kept up to date; these include diphtheria, tetanus, polio and the seasonal flu jab.</p><p>You should also consider general travel vaccinations for all destinations, particularly Hepatitis A & B and Typhoid.</p><p>Carry a record of your vaccinations and have a copy or scan of this information accessible.</p>",
-                           "_image": "images/s02_02/s02_02_2.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_2.jpg"
-                        },
-                        {
-                           "title": "Yellow Fever",
-                           "body": "<p>Yellow fever is a serious viral infection that is spread through mosquito bites. The vaccination should be given at least 10 days before travel and reliably protects against a potentially fatal tropical disease.</p><p>An additional and important consideration is that entry to some countries requires a proof of yellow fever vaccination in the form of a World Health Organisation approved certificate. Check requirements before travel as some destinations may require the certificate even if they are free of the disease.</p>",
-                           "_image": "images/s02_02/s02_02_3.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_3.jpg"
-                        },
-                        {
-                           "title": "Meningococcus",
-                           "body": "<p>Meningococcus is a bacterial disease that affects the lining of the\nbrain. The bacteria are transmitted from person-to-person through droplets of respiratory or throat secretions (sneezes or saliva) from carriers. Whilst the greatest risk is in the meningitis belt there can be outbreaks in other parts of the world. </p><p>Some destinations, for example Saudi Arabia during the Hajj and Umrah, may also require proof of meningitis vaccination in the form of an International Certificate of Vaccination or Prophylaxis (ICVP).</p>",
-                           "_image": "images/s02_02/s02_02_4.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_4.jpg"
-                        },
-                        {
-                           "title": "Rabies",
-                           "body": "<p>Rabies is a viral disease that affects the central nervous system. The virus is spread through a bite or scratch from a rabid animal as well as open skin being licked. It is fatal if not treated urgently.</p><p>Vaccinations are advised for high risk areas - if subsequently exposed, it allows you more time to reach medical assistance. Even with the vaccination you must seek medical attention urgently if exposed.</p>",
-                           "_image": "images/s02_02/s02_02_5.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_5.jpg"
-                        }
-                     ]
+                     "title": "",
+                     "_video": {
+                        "_src": "",
+                        "_poster": "video/s02_04.png",
+                        "_vtt": ""
+                     }
                   }
                }
             ]
          },
          {
-            "_uri": "/insectborne",
-            "title": "Insect borne diseases and Malaria",
-            "text": "<p>Click on each of the four sections to find out more information</p>",
-            "_image": "images/menu/menu_mobile_2.jpg",
-            "_optional": true,
+            "_uri": "/aware",
+            "title": "Vehicle and journey preparation",
+            "text": "<p>Click on each of the three sections to find out more information</p>",
+            "_image": "images/menu/WS_menu_image03.jpg",
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "prev": {
@@ -591,1158 +525,164 @@
                   "_uri": "/pretravel"
                },
                "next": {
-                  "title": "Environmental considerations",
-                  "_uri": "/environmental"
-               }
-            },
-            "pages": [
-               {
-                  "_id": "020-010",
-                  "_component": "carousel",
-                  "content": {
-                     "title": "Insect borne diseases",
-                     "body": "<p>Malaria is the most well-known insect borne disease, however there are many more and not all are carried by the mosquito.</p><p>Let's look at some common insects that transmit diseases. Sometimes the bites themselves can become sore and infected and need treatment, particularly if scratched.</p><p>Remember, if you suffer any illness upon returning home seek immediate medical attention and list the countries you have visited.</p>",
-                     "ins": "<p></p>",
-                     "slides": [
-                        {
-                           "title": "Mosquitoes",
-                           "body": "<p>There are different types of mosquitoes that carry different diseases, such as dengue fever, yellow fever, chikungunya and Japanese encephalitis.</p><p>As most travellers are unlikely to distinguish between them, it is important to be aware of all the diseases you might encounter at your destination, have immunisations if available and try to adopt a 24/7 bite prevention regime.</p>",
-                           "_image": "images/s02_01/s02_01_1.jpg",
-                           "_imageMobile": "images/s02_01/s02_01_1.jpg"
-                        },
-                        {
-                           "title": "Flies",
-                           "body": "<p>Flies, including the horse, tsetse and sand fly, can transmit various diseases, such as Loa loa, sleeping sickness and leishmaniasis, depending on where you are in the world.</p>",
-                           "_image": "images/s02_01/s02_01_2.jpg",
-                           "_imageMobile": "images/s02_01/s02_01_2.jpg"
-                        },
-                        {
-                           "title": "Ticks",
-                           "body": "<p>There are many species of tick which you may encounter through contact with grassland. They can spread Lyme disease, tick-borne encephalitis and various types of fever.</p><p>As well as transmitting disease, a tick bite can be extremely unpleasant resulting in soreness and inflammation.\nSelect the return to menu icon to continue.</p>",
-                           "_image": "images/s02_01/s02_01_3.jpg",
-                           "_imageMobile": "images/s02_01/s02_01_3.jpg"
-                        }
-                     ]
-                  }
-               },
-               {
-                  "_id": "020-020",
-                  "_component": "text-image",
-                  "content": {
-                     "title": "Malaria Introduction",
-                     "body": "<p>Malaria is a serious illness, common in many tropical countries. It is a parasite that is carried by mosquitoes and passes into the bloodstream when bitten.</p><p>Malaria can be fatal, but if you take the correct precautions you can greatly reduce your risk of catching it. Anyone can contract malaria and it is important to remember you must take precautions against it every time you visit a country where it is present. </p><p>No-one has full immunity to malaria and any partial protection you may have from being brought up in a malaria-endemic country is quickly lost when you live in countries without it.</p>",
-                     "_image": "images/02_02_image.jpg",
-                     "_imageMobile": "images/02_02_image_mobile.jpg",
-                     "_alt": "Map showing where Malaria risk is high"
-                  }
-               },
-               {
-                  "_id": "020-030",
-                  "_component": "click-reveal-checks",
-                  "content": {
-                     "content": "<p>The World Health Organization created the ABCD of malaria prevention to help educate travellers about malaria.</p>",
-                     "ins": "<p>Click the four icons for more information</p>",
-                     "title": "ABCD of malaria Prevention",
-                     "body": "<p></p>",
-                     "_image": "images/s02_03/s02_03_1.jpg",
-                     "_alt": "",
-                     "reveals": [
-                        {
-                           "checkTitle": "Awareness of the risks",
-                           "title": "Awareness of the risks",
-                           "content": "<p>Malaria is common in many parts of Africa, Asia, the Indian subcontinent, South America and some areas in the Far and Middle East. The risk is particularly high in sub-Saharan Africa. The time of year of travel can affect the risk, for example after seasonal rainfall. If you need further advice or if you are pregnant you should speak to your doctor or travel health clinic.</p>",
-                           "_image": "images/s02_03/s02_03_1.jpg",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_1.jpg"
-                        },
-                        {
-                           "checkTitle": "Bite prevention",
-                           "title": "Bite prevention",
-                           "content": "<p>Bite prevention is important because if you aren\u2019t bitten by a mosquito you can\u2019t catch malaria. Mosquitoes that transmit malaria bite from dusk to dawn. Here are the main recommended measures:</p><ul><li>Wear loose clothing that covers the skin (ankles should be covered when sitting)</li><li>Use a proven repellent (such as minimum 30% DEET) and reapply as instructed</li><li>Close window screens, if available, and spray your room before you retire at night</li><li>Use air-conditioning and fans to keep them away</li><li>If you have a net, use it; ensure that there are no gaps and tuck it under your mattress</li></ul>",
-                           "_image": "images/s02_03/s02_03_2.jpg",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_2.jpg"
-                        },
-                        {
-                           "checkTitle": "Check if you need antimalarial tablets",
-                           "title": "Check if you need antimalarial tablets",
-                           "content": "<p>Antimalarial tablets (you may see this expressed as Chemoprophylaxis) play an important role in protecting you. </p>",
-                           "_image": "images/s02_03/s02_03_3.png",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_3.jpg"
-                        },
-                        {
-                           "checkTitle": "Diagnosis",
-                           "title": "Diagnosis",
-                           "content": "<p>Whilst prevention is very effective, there is still a slight chance you can contract malaria. </p>",
-                           "_image": "images/s02_03/s02_03_4.jpg",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_4.jpg"
-                        }
-                     ]
-                  }
-               },
-               {
-                  "_id": "020-040",
-                  "_component": "media",
-                  "content": {
-                     "title": "Bite Prevention",
-                     "_video": {
-                        "_src": "video/s02_04.mp4",
-                        "_poster": "video/s02_04.png",
-                        "_vtt": "video/s02_04.vtt"
-                     }
-                  }
-               }
-            ]
-         },
-         {
-            "_uri": "/environmental",
-            "title": "Environmental considerations",
-            "text": "<p>Click on each of the two sections to find out more information</p>",
-            "_image": "images/menu/menu_mobile_3.jpg",
-            "_optional": true,
-            "_component": "horizontal",
-            "_navigation": {
-               "prev": {
-                  "title": "Insect borne diseases and Malaria",
-                  "_uri": "/insectborne"
-               },
-               "next": {
-                  "title": "Personal wellbeing",
-                  "_uri": "/personal"
+                  "title": "Safe driving",
+                  "_uri": "/safe-driving"
                }
             },
             "pages": [
                {
                   "_id": "030-010",
+                  "_component": "carousel",
+                  "content": {
+                     "title": "",
+                     "body": "<p> </p>",
+                     "slides": [
+                     ]
+                  },
+                  "_classes": "more-content"
+               },
+               {
+                  "_id": "030-020",
+                  "_component": "carousel",
+                  "content": {
+                     "title": "Access control and tailgating",
+                     "body": "<p>  </p><p> </p>",
+                     "slides": [
+                     ]
+                  },
+                  "_classes": "more-content extra-content"
+               },
+               {
+                  "_id": "030-030",
                   "_component": "media",
                   "content": {
-                     "title": "Hot climates",
+                     "title": "Fire animation",
                      "_video": {
-                        "_src": "video/s03_01.mp4",
-                        "_poster": "video/s03_01.png",
-                        "_vtt": "video/s03_01.vtt"
+                        "_src": "video/s03_03.mp4",
+                        "_poster": "video/s03_03.png",
+                        "_vtt": "video/s03_03.vtt"
                      }
                   }
                },
                {
-                  "_id": "030-020",
+                  "_id": "030-040",
+                  "_component": "media",
+                  "content": {
+                     "title": "",
+                     "_video": {
+                        "_src": "",
+                        "_poster": "video/s03_04.png",
+                        "_vtt": ""
+                     }
+                  }
+               },
+               {
+                  "_id": "030-050",
                   "_component": "text-image",
                   "content": {
-                     "title": "High altitude",
-                     "body": "<p>When travelling to destinations higher than 2,400m (8,000ft) above sea level, the oxygen levels in the air have decreased enough to start causing some travellers problems. This is known as altitude sickness. </p><p>Symptoms include: </p><ul><li>Headache</li><li>Feeling tired</li><li>Loss of appetite</li><li>Nausea</li><li>Vomiting</li></ul><p>If you are concerned about yourself or a colleague, seek medical assistance immediately.  Severe altitude sickness can be fatal.</p><p>If you are travelling to a high altitude location consult your doctor, especially if you have any pre-existing conditions, such as diabetes, lung or heart disease.</p>",
-                     "_image": "images/03_02_image.jpg",
-                     "_imageMobile": "images/03_02_image_mobile.jpg",
-                     "_alt": "Mountain with snow on top with city below"
+                     "title": "",
+                     "body": "<p><strong></strong></p><p>   </p><p><strong></strong></p><p><ul><li></li><li></li><li></li><li></li><li></li></ul></p>",
+                     "_image": "images/03_01_lockdown.jpg",
+                     "_imageMobile": "images/03_01_lockdown_mobile.jpg",
+                     "_classes": "wide"
                   }
                }
             ]
          },
          {
-            "_uri": "/personal",
-            "title": "Personal wellbeing",
-            "text": "<p>Click on each of the two sections to find out more information</p>",
-            "_image": "images/menu/menu_mobile_4.jpg",
-            "_optional": true,
+            "_uri": "/ready",
+            "title": "Safe driving",
+            "text": "<p>Click on each of the three sections to find out more information</p>",
+            "_image": "images/menu/WS_menu_image04.jpg",
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "prev": {
-                  "title": "Environmental considerations",
-                  "_uri": "/environmental"
+                  "title": "Vehicle and journey preparation",
+                  "_uri": "/preparation"
                },
                "next": {
-                  "title": "Quiz",
-                  "_uri": "/quiz"
+                  "title": "Incident response",
+                  "_uri": "/incident-response"
                }
             },
             "pages": [
                {
                   "_id": "040-010",
-                  "_component": "text-image",
+                  "_component": "media",
                   "content": {
-                     "title": "Psychological effects",
-                     "body": "<p>When travelling there are many factors which may cause us to experience increased stress and anxiety. </p><p>Being in an unfamiliar location with potential language barriers can be an extremely stressful experience, especially if you feel alone and without a support network. </p><p>These experiences may trigger new mental health issues or intensify conditions you may already be living with. </p><p>If you experience any symptoms seek medical advice or see your doctor as soon as possible upon return. </p>",
-                     "_image": "images/04_01_image.jpg",
-                     "_imageMobile": "images/04_01_image_mobile.jpg",
-                     "_alt": "Woman looking tired and stressed"
+                     "title": "Terrorism",
+                     "_video": {
+                        "_src": "video/s04_01.mp4",
+                        "_poster": "video/s04_01.png",
+                        "_vtt": "video/s04_01.vtt"
+                     }
                   }
                },
                {
                   "_id": "040-020",
-                  "_component": "text-image",
+                  "_component": "media",
                   "content": {
-                     "title": "Safe sex",
-                     "body": "<p>A large number of sexually transmitted infections (STIs) occur as a result of unprotected sexual intercourse during international travel. There is also a much higher incidence of more serious diseases such as HIV and hepatitis in developing countries.  </p><p>Condoms are the only contraceptives that provide reliable protection from STIs; purchase trustworthy brands prior to travel. </p>",
-                     "_image": "images/04_02_image.jpg",
-                     "_imageMobile": "images/04_03_image_mobile.jpg",
-                     "_alt": "Packet of condoms in back pocket"
-                  },
-                  "_classes": "alternate-background"
-               }
-            ]
-         },
-         {
-            "_uri": "/quiz",
-            "title": "Quiz",
-            "text": "&nbsp;",
-            "_image": "images/menu/menu_mobile_5.jpg",
-            "_optional": true,
-            "_component": "horizontal",
-            "_navigation": {
-               "prev": {
-                  "title": "Personal wellbeing",
-                  "_uri": "/personal"
-               }
-            },
-            "pages": [
-               {
-                  "_id": "050-010",
-                  "_component": "quiz",
-                  "content": {
-                     "title": "Quiz",
-                     "body": "<p>Now you\u2019ve completed the Health Wise course, it\u2019s time to test your knowledge.</p><p>You\u2019ll be asked 8 questions about travel health.</p><p>The pass mark for the quiz is 75%</p>",
-                     "ins": "<p>Scroll down to begin.</p>",
-                     "alreadyPassed": "<p>You\u2019ve already passed this quiz!</p>If you would like to take the quiz again, select Start quiz.</p>",
-                     "_image": " ",
-                     "startBtn": "Start quiz",
-                     "_passPercent": 75,
-                     "_passPercentScen": 80,
-                     "_reviewPercent": 75,
-                     "questions": [
-                        {
-                           "stem": "As a business traveller what is more likely to cause a serious health problem? ",
-                           "options": [
-                              {
-                                 "title": "An accident",
-                                 "correct": true
-                              },
-                              {
-                                 "title": "An infectious disease",
-                                 "correct": false
-                              }
-                           ]
-                        },
-                        {
-                           "stem": "Why is the yellow fever certificate important?",
-                           "options": [
-                              {
-                                 "title": "Yellow fever is more contagious than other diseases",
-                                 "correct": true
-                              },
-                              {
-                                 "title": "Some countries require proof of vaccination for entry",
-                                 "correct": false
-                              }
-                           ]
-                        },
-                        {
-                           "stem": "If you are bitten by a stray dog but have had the rabies vaccination, should you still seek medical attention?",
-                           "options": [
-                              {
-                                 "title": "Yes, as soon as possible ",
-                                 "correct": false
-                              },
-                              {
-                                 "title": "No, you are fully immune",
-                                 "correct": true
-                              }
-                           ]
-                        },
-                        {
-                           "stem": "What should you do If you see a colleague who looks unwell whilst working outdoors in a hot climate?",
-                           "options": [
-                              {
-                                 "title": "Ask them if they have sun cream on and have been drinking plenty of water",
-                                 "correct": true
-                              },
-                              {
-                                 "title": "Move them to a cool, shaded area and supervise them drinking water ",
-                                 "correct": false
-                              }
-                           ]
-                        },
-                        {
-                           "stem": "It is six months since you finished your antimalarial treatment and you get a flu-like fever, should you see your doctor and mention where you have been and that you suspect malaria?",
-                           "options": [
-                              {
-                                 "title": "Yes, malaria can sometimes take a year to incubate",
-                                 "correct": false
-                              },
-                              {
-                                 "title": "No, there seems to be something going around at work",
-                                 "correct": true
-                              }
-                           ]
-                        },
-                        {
-                           "stem": "Malaria is transmitted by a mosquito bite, but what causes the disease?",
-                           "options": [
-                              {
-                                 "title": "A parasite",
-                                 "correct": true
-                              },
-                              {
-                                 "title": "A virus",
-                                 "correct": false
-                              }
-                           ]
-                        },
-                        {
-                           "stem": "As well as taking antimalarial drugs what else can you do reduce the risk of catching malaria?",
-                           "options": [
-                              {
-                                 "title": "Use a proven insect repellent",
-                                 "correct": false
-                              },
-                              {
-                                 "title": "Drink plenty of water",
-                                 "correct": true
-                              }
-                           ]
-                        },
-                        {
-                           "stem": "When should you stop taking your antimalarial tablets?",
-                           "options": [
-                              {
-                                 "title": "When you have finished the course",
-                                 "correct": true
-                              },
-                              {
-                                 "title": "When you fly home",
-                                 "correct": false
-                              }
-                           ]
-                        }
-                     ],
-                     "summary": {
-                        "title": "How did you do?",
-                        "body": "<p>Please review the asterixed question(s), which show the correct answer.</p>",
-                        "continueBtn": "Next"
-                     },
-                     "feedback": {
-                        "pass": "<p>You scored {0}%</p><p>Well done! You passed the quiz.</p><p>Don't forget to print off the checklist that will help you to remember everything covered in this course and stay Travel Wise. </p>",
-                        "passScen": "<p>You scored {0}%</p><p>Well done! You passed the quiz.</p><p>Don't forget to print off the downloadable leaflet that will help you to remember everything you covered in this course. Use it in conjunction with the Travel Wise checklist to keep healthy while travelling.  You can now close the course, or return to the menu if you wish to revisit any of the sections.</p>",
-                        "passExtras": {
-                           "title": "Download our handy checklist and print it two-sided",
-                           "_image": "images/checklist.png",
-                           "_href": "pdfs/Travelwise_Checklist.pdf"
-                        },
-                        "fail": "<p>Unfortunately you didn\u2019t pass the quiz this time.</p><p>Please select the <strong>Retake quiz</strong> button to try again.</p>",
-                        "failScen": "<p>You scored {0}%</p><p>Unfortunately, you didn\u2019t pass the quiz this time. </p><p>Select <strong>Retake quiz</strong> to try again. </p>",
-                        "retryBtn": "Retake quiz",
-                        "checkBtn": "Check answers"
-                     },
-                     "quesIns": "<p>Please select the correct answer.</p>",
-                     "_quiztype": "standard",
-                     "_feedback": "false"
-                  }
-               }
-            ],
-            "_locked": false,
-            "_unlockedBy": [
-               "/pretravel",
-               "/insectborne",
-               "/environment",
-               "/personal"
-            ]
-         }
-      ]
-   },
-   "de": {
-      "_dev": false,
-      "_edit": false,
-      "_css": false,
-      "label": "Deutsch",
-      "config": {
-         "coursesuite": "",
-         "coursename": "",
-         "courseid": "healthwise-gen",
-         "lms": false,
-         "defaultlang": "en"
-      },
-      "global": {
-         "_alllocked": false,
-         "_assessment": true,
-         "_assessAttempts": "",
-         "_accessibility": {
-            "splashtitle": "",
-            "bookmarktitle": "",
-            "menutitle": "",
-            "menuprogress": "",
-            "locked": "",
-            "complete": "",
-            "incomplete": "",
-            "helptitle": "",
-            "resourcetitle": "",
-            "completetitle": "",
-            "langselecttitle": "",
-            "menubtn": "",
-            "subtitlebtn": "",
-            "playbtn": "",
-            "pausebtn": "",
-            "rewindbtn": "",
-            "skipmediabtn": "",
-            "pinbtn": "",
-            "itemtitle": "",
-            "iconitle": "",
-            "hotspottitle": "",
-            "checktitle": "",
-            "next": "",
-            "prev": "",
-            "containsmedia": "",
-            "videotitle": "",
-            "audiotitle": "",
-            "transcripttitle": "",
-            "close": "",
-            "status": "",
-            "replaybtn": "",
-            "_components": {
-               "carousel": "",
-               "clickrevealchecks": "",
-               "clickrevealhotspots": "",
-               "clickrevealicons": "",
-               "clickrevealimages": "",
-               "media": "",
-               "pins": "",
-               "quiz": "",
-               "steps": "",
-               "textimage": ""
-            }
-         },
-         "bookmark": {
-            "message": "",
-            "yes": "",
-            "no": ""
-         },
-         "buttons": {
-            "continue": "",
-            "submit": "",
-            "close": ""
-         },
-         "splash": {
-            "_display": true,
-            "_type": "btw",
-            "title": "",
-            "ins": "",
-            "_images": {
-               "_small1": "images/splash/splash_image01.png",
-               "_small2": "images/splash/splash_image02.png",
-               "_small3": "images/splash/splash_image03.png",
-               "_characters": "images/splash/splash_people.png"
-            }
-         },
-         "help": {
-            "title": "",
-            "body": "<p> </p><p></p><p></p>",
-            "_icons": [
-               {
-                  "_image": "icons/arrow-circle-right-solid.svg",
-                  "_title": "",
-                  "content": ""
-               },
-               {
-                  "_image": "icons/return_btn_n.svg",
-                  "_title": "",
-                  "content": ""
-               },
-               {
-                  "_image": "icons/info-circle-solid.svg",
-                  "_title": "",
-                  "content": ""
-               },
-               {
-                  "_image": "icons/video-solid.svg",
-                  "_title": "",
-                  "content": ""
-               },
-               {
-                  "_image": "icons/volume-up-solid.svg",
-                  "_title": "",
-                  "content": ""
-               },
-               {
-                  "_image": "icons/comment-solid.svg",
-                  "_title": "",
-                  "content": ""
-               }
-            ]
-         },
-         "resources": {
-            "title": "",
-            "body": "",
-            "_links": [
-               {
-                  "_type": "title",
-                  "title": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "title",
-                  "title": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "title",
-                  "title": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "title",
-                  "title": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "link",
-                  "title": "",
-                  "_href": ""
-               },
-               {
-                  "_type": "image-link",
-                  "title": "",
-                  "_href": "pdfs/Travelwise_Checklist.pdf",
-                  "_image": "images/checklist.png",
-                  "_pos": [
-                     "75%",
-                     "78%",
-                     "35%"
-                  ],
-                  "_mobilePos": [
-                     "87%",
-                     "50%",
-                     "100%"
-                  ]
-               }
-            ]
-         },
-         "langselect": {
-            "title": "",
-            "body": "<p></p>"
-         },
-         "complete": {
-            "body": "<p></p><p></p><p></p><p></p>"
-         },
-         "header": {
-            "_display": false,
-            "_logo": true,
-            "_background": "#f2f2f2",
-            "_colour": "#E25D22"
-         },
-         "homeBtn": {
-            "_display": true
-         },
-         "footer": {
-            "_display": false,
-            "_background": "#f2f2f2",
-            "_colour": "#E25D22"
-         },
-         "_navigation": "navigation",
-         "_forceHome": false,
-         "continueIns": "<p class=\"faded-out component-ins\"> <strong><a id=\"toMenu\"></a></strong> </p>",
-         "continueMobileIns": "<p></p>",
-         "continueVideoIns": "<p> <strong><a id=\"toMenu\"></a></strong> </p>",
-         "continueVideoMobileIns": "<p></p>",
-         "continueMobileLastIns": "<p></p>",
-         "closeIns": "<p></p>",
-         "continueLabel": "",
-         "rotation": "",
-         "unlock": ""
-      },
-      "menu": {
-         "_type": "pages",
-         "_headerImage": "images/menu/menu_header_icons.png",
-         "_headerImageMobile": "images/menu/menu_header_icons.png",
-         "_barColour": "#CACACA",
-         "_rows": 2,
-         "_colours": [
-            "#CACACA",
-            "#CACACA",
-            "#CACACA",
-            "#CACACA",
-            "#CACACA",
-            "#CACACA"
-         ],
-         "_complete": {
-            "title": "",
-            "text": "",
-            "_image": "images/splash/splash_people.png",
-            "_link": {
-               "_url": "pdfs/BTW_Healthwise_Checklist.pdf",
-               "_image": "images/checklist.png"
-            }
-         },
-         "_pages": [
-            {
-               "_images": [
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/pretravel/5sNZEfjXUOM_DX680_DY680_CX340_CY265.png",
-                     "_id": "010-010"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/5a6nDU5ICA5_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/pretravel/5xM48Np2GTe_DX680_DY680_CX340_CY265.png",
-                     "_id": "010-020"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/5eQhUInhotk_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/pretravel/pretravel.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6FV10sejkhi_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_id": "010-030",
-                     "_image": "images/menu/pretravel/5kEN2vEijGS_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6GUqKqA51Fq_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_id": "010-040",
-                     "_image": "images/menu/pretravel/6K8Kc7WXI6z_DX680_DY680_CX340_CY265.png"
-                  }
-               ]
-            },
-            {
-               "_images": [
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6SC7MYdGMOI_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_id": "020-010",
-                     "_image": "images/menu/insectborne/5sHN9YCmwZL_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6CtK7L6fHVd_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/insectborne/5fnLNVeMny4_DX680_DY680_CX340_CY265.png",
-                     "_id": "020-020"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/insectborne/insectborne.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/insectborne/5jiDLn8hoHP_DX680_DY680_CX340_CY265.png",
-                     "_id": "020-030"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/61dnGKgxMWZ_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/insectborne/6hHDW64yUX4_DX680_DY680_CX340_CY265.png",
-                     "_id": "020-040"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6XErHyjIF5F_DX680_DY680_CX340_CY265.png"
-                  }
-               ]
-            },
-            {
-               "_images": [
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/5efm5vF5wNe_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_id": "030-010",
-                     "_image": "images/menu/environmental/5y9In3cCb6G_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/604xErk5ghZ_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6Yq4tPnKOyO_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/environmental/environmental.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6dhdu1nRijg_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/5djzmWdu4fc_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/environmental/6Ii4ugsH1oo_DX680_DY680_CX340_CY265.png",
-                     "_id": "030-020"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6lPbePphJzB_DX680_DY680_CX340_CY265.png"
-                  }
-               ]
-            },
-            {
-               "_images": [
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/64zC90qSUqI_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6YNmzlw4HQd_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6loZNyeMAzF_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/personal/6VQqHPTYv8v_DX680_DY680_CX340_CY265.png",
-                     "_id": "040-010"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/personal/personal.png"
-                  },
-                  {
-                     "_type": "selectable",
-                     "_image": "images/menu/personal/6OPvyWiYPSi_DX680_DY680_CX340_CY265.png",
-                     "_id": "040-020"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/5hMfNMZkr7v_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6hvd9n3H36L_DX680_DY680_CX340_CY265.png"
-                  },
-                  {
-                     "_type": "placeholder",
-                     "_image": "images/menu/6pMisgqDIJ1_DX680_DY680_CX340_CY265.png"
-                  }
-               ]
-            },
-            {
-               "_lockedInfo": "<p></p>"
-            }
-         ]
-      },
-      "topics": [
-         {
-            "_uri": "/pretravel",
-            "title": "",
-            "text": "<p></p>",
-            "_image": "images/menu/menu_mobile_1.jpg",
-            "_optional": true,
-            "_component": "horizontal",
-            "_navigation": {
-               "next": {
-                  "title": "",
-                  "_uri": "/insectborne"
-               }
-            },
-            "pages": [
-               {
-                  "_id": "010-010",
-                  "_component": "text-image",
-                  "content": {
-                     "title": "",
-                     "body": "<p></p><p> <ul><li></li><li></li><li> </li><li></li></ul></p><p> </p>",
-                     "_image": "images/01_01_image.jpg",
-                     "_imageMobile": "images/01_01_image_mobile.jpg",
-                     "_alt": "A helicopter landing pad"
+                     "title": "Why be Road Wise?",
+                     "_video": {
+                        "_src": "",
+                        "_poster": "video/s04_02.png",
+                        "_vtt": ""
+                     }
                   }
                },
                {
-                  "_id": "010-020",
-                  "_component": "text-image",
-                  "content": {
-                     "title": "",
-                     "body": "<p></p><p> </p>",
-                     "_image": "images/01_02_image.jpg",
-                     "_imageMobile": "images/01_02_image_mobile.jpg",
-                     "_alt": "a map of travel health on computer screen"
-                  }
-               },
-               {
-                  "_id": "010-030",
+                  "_id": "040-030",
                   "_component": "click-reveal-icons",
                   "content": {
                      "content": "<p></p>",
                      "ins": "<p></p>",
-                     "title": "",
-                     "body": "<p> </p>",
-                     "_image": "images/s01_03/s01_03.jpg",
-                     "_imageMobile": "images/s01_03/s01_03.jpg",
+                     "title": "Run, hide, tell",
+                     "body": "<p> <strong></strong></p>",
+                     "_image": "images/s04_01/s04_01.jpg",
+                     "_imageMobile": "images/s04_01/s04_01.jpg",
                      "_rows": 1,
                      "reveals": [
                         {
                            "title": "",
-                           "content": "<p> </p>",
-                           "_image": "images/s01_03/s01_03_1.png",
-                           "_imageVisited": "images/s01_03/s01_03_1_visited.png"
-                        },
-                        {
-                           "title": "",
-                           "content": "<p></p>",
-                           "_image": "images/s01_03/s01_03_2.png",
-                           "_imageVisited": "images/s01_03/s01_03_2_visited.png"
+                           "content": "<p>  </p>",
+                           "_image": "images/s04_01/s04_01_1.png",
+                           "_imageVisited": "images/s04_01/s04_01_1_visited.png"
                         },
                         {
                            "title": "",
                            "content": "<p> </p>",
-                           "_image": "images/s01_03/s01_03_3.png",
-                           "_imageVisited": "images/s01_03/s01_03_3_visited.png"
+                           "_image": "images/s04_01/s04_01_2.png",
+                           "_imageVisited": "images/s04_01/s04_01_2_visited.png"
                         },
                         {
-                           "title": "",
-                           "content": "<p></p>",
-                           "_image": "images/s01_03/s01_03_4.png",
-                           "_imageVisited": "images/s01_03/s01_03_4_visited.png"
-                        }
-                     ]
-                  }
-               },
-               {
-                  "_id": "010-040",
-                  "_component": "carousel",
-                  "content": {
-                     "title": "",
-                     "body": "<p></p><p class=\\'flexbox flexbox-row\\'><span class=\\'btw-resources-icon white\\'></span><span></span></p>",
-                     "ins": "<p></p>",
-                     "slides": [
-                        {
-                           "title": "",
-                           "body": "<p></p><p></p><p></p>",
-                           "_image": "images/s02_02/s02_02_2.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_2.jpg"
-                        },
-                        {
-                           "title": "",
-                           "body": "<p> </p><p> </p>",
-                           "_image": "images/s02_02/s02_02_3.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_3.jpg"
-                        },
-                        {
-                           "title": "",
-                           "body": "<p>  </p><p></p>",
-                           "_image": "images/s02_02/s02_02_4.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_4.jpg"
-                        },
-                        {
-                           "title": "",
-                           "body": "<p> </p><p> </p>",
-                           "_image": "images/s02_02/s02_02_5.jpg",
-                           "_imageMobile": "images/s02_02/s02_02_5.jpg"
-                        }
-                     ]
-                  }
-               }
-            ]
-         },
-         {
-            "_uri": "/insectborne",
-            "title": "",
-            "text": "<p></p>",
-            "_image": "images/menu/menu_mobile_2.jpg",
-            "_optional": true,
-            "_component": "horizontal",
-            "_navigation": {
-               "prev": {
-                  "title": "",
-                  "_uri": "/pretravel"
-               },
-               "next": {
-                  "title": "",
-                  "_uri": "/environmental"
-               }
-            },
-            "pages": [
-               {
-                  "_id": "020-010",
-                  "_component": "carousel",
-                  "content": {
-                     "title": "",
-                     "body": "<p></p><p></p><p></p>",
-                     "ins": "<p></p>",
-                     "slides": [
-                        {
-                           "title": "",
-                           "body": "<p></p><p></p>",
-                           "_image": "images/s02_01/s02_01_1.jpg",
-                           "_imageMobile": "images/s02_01/s02_01_1.jpg"
-                        },
-                        {
-                           "title": "",
-                           "body": "<p></p>",
-                           "_image": "images/s02_01/s02_01_2.jpg",
-                           "_imageMobile": "images/s02_01/s02_01_2.jpg"
-                        },
-                        {
-                           "title": "",
-                           "body": "<p></p><p></p>",
-                           "_image": "images/s02_01/s02_01_3.jpg",
-                           "_imageMobile": "images/s02_01/s02_01_3.jpg"
-                        }
-                     ]
-                  }
-               },
-               {
-                  "_id": "020-020",
-                  "_component": "text-image",
-                  "content": {
-                     "title": "",
-                     "body": "<p> </p><p> </p><p></p>",
-                     "_image": "images/02_02_image.jpg",
-                     "_imageMobile": "images/02_02_image_mobile.jpg",
-                     "_alt": "Map showing where Malaria risk is high"
-                  }
-               },
-               {
-                  "_id": "020-030",
-                  "_component": "click-reveal-checks",
-                  "content": {
-                     "content": "<p></p>",
-                     "ins": "<p></p>",
-                     "title": "",
-                     "body": "<p></p>",
-                     "_image": "images/s02_03/s02_03_1.jpg",
-                     "_alt": "",
-                     "reveals": [
-                        {
-                           "checkTitle": "",
                            "title": "",
                            "content": "<p> </p>",
-                           "_image": "images/s02_03/s02_03_1.jpg",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_1.jpg"
+                           "_image": "images/s04_01/s04_01_3.png",
+                           "_imageVisited": "images/s04_01/s04_01_3_visited.png"
                         },
                         {
-                           "checkTitle": "",
                            "title": "",
-                           "content": "<p></p><ul><li></li><li></li><li></li><li></li><li></li></ul>",
-                           "_image": "images/s02_03/s02_03_2.jpg",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_2.jpg"
-                        },
-                        {
-                           "checkTitle": "",
-                           "title": "",
-                           "content": "<p></p>",
-                           "_image": "images/s02_03/s02_03_3.png",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_3.jpg"
-                        },
-                        {
-                           "checkTitle": "",
-                           "title": "",
-                           "content": "<p></p>",
-                           "_image": "images/s02_03/s02_03_4.jpg",
-                           "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_4.jpg"
+                           "content": "<p>   </p>",
+                           "_image": "images/s04_01/s04_01_4.png",
+                           "_imageVisited": "images/s04_01/s04_01_4_visited.png"
                         }
                      ]
                   }
-               },
-               {
-                  "_id": "020-040",
-                  "_component": "media",
-                  "content": {
-                     "title": "",
-                     "_video": {
-                        "_src": "video/s02_04.mp4",
-                        "_poster": "video/s02_04.png",
-                        "_vtt": ""
-                     }
-                  }
-               }
-            ]
-         },
-         {
-            "_uri": "/environmental",
-            "title": "",
-            "text": "<p></p>",
-            "_image": "images/menu/menu_mobile_3.jpg",
-            "_optional": true,
-            "_component": "horizontal",
-            "_navigation": {
-               "prev": {
-                  "title": "",
-                  "_uri": "/insectborne"
-               },
-               "next": {
-                  "title": "",
-                  "_uri": "/personal"
-               }
-            },
-            "pages": [
-               {
-                  "_id": "030-010",
-                  "_component": "media",
-                  "content": {
-                     "title": "",
-                     "_video": {
-                        "_src": "video/s03_01.mp4",
-                        "_poster": "video/s03_01.png",
-                        "_vtt": ""
-                     }
-                  }
-               },
-               {
-                  "_id": "030-020",
-                  "_component": "text-image",
-                  "content": {
-                     "title": "",
-                     "body": "<p> </p><p> </p><ul><li></li><li></li><li></li><li></li><li></li></ul><p></p><p></p>",
-                     "_image": "images/03_02_image.jpg",
-                     "_imageMobile": "images/03_02_image_mobile.jpg",
-                     "_alt": "Mountain with snow on top with city below"
-                  }
-               }
-            ]
-         },
-         {
-            "_uri": "/personal",
-            "title": "",
-            "text": "<p></p>",
-            "_image": "images/menu/menu_mobile_4.jpg",
-            "_optional": true,
-            "_component": "horizontal",
-            "_navigation": {
-               "prev": {
-                  "title": "",
-                  "_uri": "/environmental"
-               },
-               "next": {
-                  "title": "",
-                  "_uri": "/quiz"
-               }
-            },
-            "pages": [
-               {
-                  "_id": "040-010",
-                  "_component": "text-image",
-                  "content": {
-                     "title": "",
-                     "body": "<p> </p><p> </p><p> </p><p> </p>",
-                     "_image": "images/04_01_image.jpg",
-                     "_imageMobile": "images/04_01_image_mobile.jpg",
-                     "_alt": "Woman looking tired and stressed"
-                  }
-               },
-               {
-                  "_id": "040-020",
-                  "_component": "text-image",
-                  "content": {
-                     "title": "",
-                     "body": "<p> </p><p> </p>",
-                     "_image": "images/04_02_image.jpg",
-                     "_imageMobile": "images/04_03_image_mobile.jpg",
-                     "_alt": "Packet of condoms in back pocket"
-                  },
-                  "_classes": "alternate-background"
                }
             ]
          },
          {
             "_uri": "/quiz",
-            "title": "",
+            "title": "Incident response",
             "text": "&nbsp;",
-            "_image": "images/menu/menu_mobile_5.jpg",
-            "_optional": true,
+            "_image": "images/menu/WS_menu_image05.jpg",
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "prev": {
-                  "title": "",
-                  "_uri": "/personal"
+                  "title": "Safe driving",
+                  "_uri": "/safe-driving"
                }
             },
             "pages": [
@@ -1756,9 +696,9 @@
                      "alreadyPassed": "<p></p></p>",
                      "_image": " ",
                      "startBtn": "",
-                     "_passPercent": 75,
+                     "_passPercent": 80,
                      "_passPercentScen": 80,
-                     "_reviewPercent": 75,
+                     "_reviewPercent": 80,
                      "questions": [
                         {
                            "stem": "",
@@ -1866,35 +806,24 @@
                         }
                      ],
                      "summary": {
-                        "title": "",
-                        "body": "<p></p>",
-                        "continueBtn": ""
-                     },
-                     "feedback": {
-                        "pass": "<p></p><p></p><p></p>",
-                        "passScen": "<p></p><p></p><p> </p>",
-                        "passExtras": {
-                           "title": "",
-                           "_image": "images/checklist.png",
-                           "_href": "pdfs/Travelwise_Checklist.pdf"
-                        },
-                        "fail": "<p></p><p></p>",
-                        "failScen": "<p></p><p></p><p></p>",
                         "retryBtn": "",
                         "checkBtn": ""
                      },
-                     "quesIns": "<p></p>",
-                     "_quiztype": "",
-                     "_feedback": ""
+                     "feedback": {
+                        "quesIns": "<p></p>",
+                        "_quiztype": "",
+                        "passExtras": {
+                        }
+                     }
                   }
                }
             ],
             "_locked": false,
             "_unlockedBy": [
-               "/pretravel",
-               "/insectborne",
-               "/environment",
-               "/personal"
+               "/intro",
+               "/prepared",
+               "/aware",
+               "/ready"
             ]
          }
       ]
