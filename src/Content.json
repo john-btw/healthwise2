@@ -630,7 +630,7 @@
                   "_component": "text-image",
                   "content": {
                      "title": "Malaria introduction",
-                     "body": "<p>Malaria is a serious illness, common in many tropical countries. It is a parasite that is carried by mosquitoes and passes into the bloodstream when bitten.</p><p>Malaria can be fatal, but if you take the correct precautions you can greatly reduce your risk of catching it. Anyone can contract malaria and it is important to remember you must take precautions against it every time you visit a country where it is present. </p><p>No-one has full immunity to malaria and any partial protection you may have from being brought up in a malaria-endemic country is quickly lost when you live in countries without it.</p>",
+                     "body": "<p>Malaria is a serious illness, common in many tropical countries. It is a parasite that is carried by mosquitoes and passes into the bloodstream when bitten.</p> <p>Malaria can be fatal, but if you take the correct precautions you can greatly reduce your risk of catching it. Anyone can contract malaria and it is important to remember you must take precautions against it every time you visit a country where it is present. </p> <p>No-one has full immunity to malaria and any partial protection you may have from being brought up in a malaria-endemic country is quickly lost when you live in countries without it.</p>",
                      "_image": "images/02_02_image.jpg",
                      "_imageMobile": "images/02_02_image_mobile.jpg",
                      "_alt": "Map showing where Malaria risk is high"
@@ -828,11 +828,11 @@
                            "options": [
                               {
                                  "title": "Yellow fever is more contagious than other diseases",
-                                 "correct": true
+                                 "correct": false
                               },
                               {
                                  "title": "Some countries require proof of vaccination for entry",
-                                 "correct": false
+                                 "correct": true
                               }
                            ]
                         },
@@ -841,11 +841,11 @@
                            "options": [
                               {
                                  "title": "Yes, as soon as possible ",
-                                 "correct": false
+                                 "correct": true
                               },
                               {
                                  "title": "No, you are fully immune",
-                                 "correct": true
+                                 "correct": false
                               }
                            ]
                         },
@@ -854,11 +854,11 @@
                            "options": [
                               {
                                  "title": "Ask them if they have sun cream on and have been drinking plenty of water",
-                                 "correct": true
+                                 "correct": false
                               },
                               {
                                  "title": "Move them to a cool, shaded area and supervise them drinking water ",
-                                 "correct": false
+                                 "correct": true
                               }
                            ]
                         },
@@ -867,11 +867,11 @@
                            "options": [
                               {
                                  "title": "Yes, malaria can sometimes take a year to incubate",
-                                 "correct": false
+                                 "correct": true
                               },
                               {
                                  "title": "No, there seems to be something going around at work",
-                                 "correct": true
+                                 "correct": false
                               }
                            ]
                         },
@@ -893,11 +893,11 @@
                            "options": [
                               {
                                  "title": "Use a proven insect repellent",
-                                 "correct": false
+                                 "correct": true
                               },
                               {
                                  "title": "Drink plenty of water",
-                                 "correct": true
+                                 "correct": false
                               }
                            ]
                         },
