@@ -84,7 +84,7 @@
          },
          "help": {
             "title": "Help",
-            "body": "<p>The main course menu shows each topic as titles to split the learning into short, manageable chunks. Each topic is represented on the left hand side of the screen which, when selected, displays a topic sensitive sub-menu.</p><p>When a topic is selected it populates the main body of the screen with the relevant sections (represented by blocks) which can be selected in any order to reveal detailed content.</p><p>Have a look at some of the buttons you will see throughout the course, and what they mean:</p>",
+            "body": "<p>The main course menu shows each topic as titles to split the learning into short, manageable chunks. Each topic is represented on the left hand side of the screen which, when selected, displays a topic sensitive sub-menu.</p><p>When a topic is selected, it populates the main body of the screen with the relevant sections (represented by blocks) which can be selected in any order to reveal detailed content.</p><p>Have a look at some of the buttons you will see throughout the course, and what they mean:</p>",
             "_icons": [
                {
                   "_image": "icons/arrow-circle-right-solid.svg",
@@ -162,7 +162,7 @@
                },
                {
                   "_type": "link",
-                  "title": "Centres for Disease Control and Prevention (CDC) - USA",
+                  "title": "Centers for Disease Control and Prevention (CDC) - USA",
                   "_href": "https://www.who.int/ith/en/"
                },
                {
@@ -485,7 +485,7 @@
                   "_component": "text-image",
                   "content": {
                      "title": "Why be health wise?",
-                     "body": "<p>Most serious travel health problems are due to pre-existing\nconditions. Also, accidents account for far more medical\nissues with travellers than infectious diseases. Whatever your\ndestination there are practical steps you can take to ensure\nyou have a healthy and stress-free trip.</p><p>Whilst this course is designed to make you aware of the most common health issues travellers face, always bear in mind: Have regular health check-ups (medical and dental)<ul><li>Speak to your doctor before travel if you have a pre-existing\nmedical condition, are pregnant or to ask if you are at\nheightened risk of certain conditions (for example DVT, or\nheart problems)</li><li>General conservative behaviour has health benefits, modest\ndress prevents insect bites, modest alcohol intake prevents\nthe accidents that often occur with intoxication</li><li>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases </li><li>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases</li></ul></p><p>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases</p>",
+                     "body": "<p>Most serious travel health problems are due to pre-existing\nconditions. Also, accidents account for far more medical\nissues with travellers than infectious diseases. Whatever your\ndestination, there are practical steps you can take to ensure\nyou have a healthy and stress-free trip.</p><p>Whilst this course is designed to make you aware of the most common health issues travellers face, always bear in mind: <ul><li>Have regular health check-ups (medical and dental)</li><li>Speak to your doctor before travel if you have a pre-existing\nmedical condition, are pregnant or to ask if you are at\nheightened risk of certain conditions (for example DVT, or\nheart problems)</li><li>General conservative behaviour has health benefits, modest\ndress prevents insect bites, modest alcohol intake prevents\nthe accidents that often occur with intoxication</li><li>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases </li></ul></p>",
                      "_image": "images/01_01_image.jpg",
                      "_imageMobile": "images/01_01_image_mobile.jpg",
                      "_alt": "A helicopter landing pad"
@@ -496,7 +496,7 @@
                   "_component": "text-image",
                   "content": {
                      "title": "Research",
-                     "body": "<p>When researching your trip, look at the medical risks for\nyour destination.</p><p>A list of these websites is in the resources section. These\nwill inform you about what health risks exist at your\ndestination and allow you to have an informed discussion\nwith your doctor or travel health clinic. If you don't have access to a medical information\nservice there are many government sites that can\nadvise you.</p>",
+                     "body": "<p>When researching your trip, look at the medical risks for\nyour destination.</p><p>A list of these websites is in the resources section. These\nwill inform you about what health risks exist at your\ndestination and allow you to have an informed discussion\nwith your doctor or travel health clinic. If you don't have access to a medical information\nservice, there are many government sites that can\nadvise you.</p>",
                      "_image": "images/01_02_image.jpg",
                      "_imageMobile": "images/01_02_image_mobile.jpg",
                      "_alt": "a map of travel health on computer screen"
@@ -516,25 +516,25 @@
                      "reveals": [
                         {
                            "title": "Medical check",
-                           "content": "<p>Visit your doctor to travel health clinic 4-6 weeks prior to departure. Have a thorough check, especially if your destination country has poor medical infrastructure, extremes of weathere or is at altitude.</p>",
+                           "content": "<p>Visit your doctor to travel health clinic 4-6 weeks prior to departure. Have a thorough check, especially if your destination country has poor medical infrastructure, extremes of weather or is at altitude.</p>",
                            "_image": "images/s01_03/s01_03_1.png",
                            "_imageVisited": "images/s01_03/s01_03_1_visited.png"
                         },
                         {
                            "title": "Pre-existing conditions and pregnancy",
-                           "content": "<p>If you have a pre-existing medical condition or are pregnant seek advice about specific travel precautions you should consider and also special measures you should take if entering a higher medical risk area.</p>",
+                           "content": "<p>If you have a pre-existing medical condition or are pregnant, seek advice about specific travel precautions you should consider and also special measures you should take if entering a higher medical risk area.</p>",
                            "_image": "images/s01_03/s01_03_2.png",
                            "_imageVisited": "images/s01_03/s01_03_2_visited.png"
                         },
                         {
                            "title": "Infectious diseases",
-                           "content": "<p>During your check ask about infectious diseases at your destination and whether there are vaccinations or prevention measures you can take to protect yourself. </p>",
+                           "content": "<p>During your check, ask about infectious diseases at your destination and whether there are vaccinations or prevention measures you can take to protect yourself. </p>",
                            "_image": "images/s01_03/s01_03_3.png",
                            "_imageVisited": "images/s01_03/s01_03_3_visited.png"
                         },
                         {
                            "title": "Dental check",
-                           "content": "<p>Have regular dental check-ups, whilst dental problems aren't generally life threatening they can be debilitating on a business trip and local dental standards can vary greatly.</p>",
+                           "content": "<p>Have regular dental check-ups. Whilst dental problems aren't generally life-threatening, they can be debilitating on a business trip and local dental standards can vary greatly.</p>",
                            "_image": "images/s01_03/s01_03_4.png",
                            "_imageVisited": "images/s01_03/s01_03_4_visited.png"
                         }
@@ -546,30 +546,30 @@
                   "_component": "carousel",
                   "content": {
                      "title": "Vaccinations",
-                     "body": "<p>Vaccinations are a highly effective measure to prevent certain infectious diseases. There are generally very safe and adverse reactions are unusual.</p><p class=\\'flexbox flexbox-row\\'><span class=\\'btw-resources-icon white\\'></span><span>Some vaccinations are important for all travel, others may be required or advisable dependent upon your job or location you are visiting.</span></p>",
+                     "body": "<p>Vaccinations are a highly effective measure to prevent certain infectious diseases. They are generally very safe and adverse reactions are unusual.</p><p class=\\'flexbox flexbox-row\\'><span class=\\'btw-resources-icon white\\'></span><span>Some vaccinations are important for all travel, others may be required or advisable dependent upon your job or location you are visiting.</span></p>",
                      "ins": "<p></p>",
                      "slides": [
                         {
                            "title": "All Destinations",
-                           "body": "<p>It is important that your routine vaccinations are kept up to date; these include diphtheria, tetanus, polio and the seasonal flu jab.</p><p>You should also consider general travel vaccinations for all destinations, particularly Hepatitis A & B and Typhoid.</p><p>Carry a record of your vaccinations and have a copy or scan of this information accessible.</p>",
+                           "body": "<p>It is important that your routine vaccinations are kept up-to-date; these include diphtheria, tetanus, polio and the seasonal flu jab.</p><p>You should also consider general travel vaccinations for all destinations, particularly hepatitis A & B and typhoid.</p><p>Carry a record of your vaccinations and have a copy or scan of this information accessible.</p>",
                            "_image": "images/s01_04/s01_04_1.jpg",
                            "_imageMobile": "images/s01_04/s01_04_1.jpg"
                         },
                         {
                            "title": "Yellow Fever",
-                           "body": "<p>Yellow fever is a serious viral infection that is spread through mosquito bites. The vaccination should be given at least 10 days before travel and reliably protects against a potentially fatal tropical disease.</p><p>An additional and important consideration is that entry to some countries requires a proof of yellow fever vaccination in the form of a World Health Organisation approved certificate. Check requirements before travel as some destinations may require the certificate even if they are free of the disease.</p>",
+                           "body": "<p>Yellow fever is a serious viral infection that is spread through mosquito bites. The vaccination should be given at least 10 days before travel and reliably protects against a potentially fatal tropical disease.</p><p>An additional and important consideration is that entry to some countries requires proof of yellow fever vaccination in the form of a World Health Organisation approved certificate. Check requirements before travel as some destinations may require the certificate even if they are free of the disease.</p>",
                            "_image": "images/s01_04/s01_04_2.jpg",
                            "_imageMobile": "images/s01_04/s01_04_2.jpg"
                         },
                         {
                            "title": "Meningococcus",
-                           "body": "<p>Meningococcus is a bacterial disease that affects the lining of the\nbrain. The bacteria are transmitted from person-to-person through droplets of respiratory or throat secretions (sneezes or saliva) from carriers. Whilst the greatest risk is in the meningitis belt there can be outbreaks in other parts of the world. </p><p>Some destinations, for example Saudi Arabia during the Hajj and Umrah, may also require proof of meningitis vaccination in the form of an International Certificate of Vaccination or Prophylaxis (ICVP).</p>",
+                           "body": "<p>Meningococcus is a bacterial disease that affects the lining of the\nbrain. The bacteria are transmitted from person-to-person through droplets of respiratory or throat secretions (sneezes or saliva) from carriers. Whilst the greatest risk is in the meningitis belt, there can be outbreaks in other parts of the world. </p><p>Some destinations, for example Saudi Arabia during the Hajj and Umrah, may also require proof of meningitis vaccination in the form of an International Certificate of Vaccination or Prophylaxis (ICVP).</p>",
                            "_image": "images/s01_04/s01_04_3.jpg",
                            "_imageMobile": "images/s01_04/s01_04_3.jpg"
                         },
                         {
                            "title": "Rabies",
-                           "body": "<p>Rabies is a viral disease that affects the central nervous system. The virus is spread through a bite or scratch from a rabid animal as well as open skin being licked. It is fatal if not treated urgently.</p><p>Vaccinations are advised for high risk areas - if subsequently exposed, it allows you more time to reach medical assistance. Even with the vaccination you must seek medical attention urgently if exposed.</p>",
+                           "body": "<p>Rabies is a viral disease that affects the central nervous system. The virus is spread through a bite or scratch from a rabid animal as well as open skin being licked. It is fatal if not treated urgently.</p><p>Vaccinations are advised for high risk areas - if subsequently exposed, it allows you more time to reach medical assistance. Even with the vaccination, you must seek medical attention urgently if exposed.</p>",
                            "_image": "images/s01_04/s01_04_4.jpg",
                            "_imageMobile": "images/s01_04/s01_04_4.jpg"
                         }
@@ -601,7 +601,7 @@
                   "_component": "carousel",
                   "content": {
                      "title": "Insect-borne diseases",
-                     "body": "<p>Malaria is the most well-known insect borne disease, however there are many more and not all are carried by the mosquito.</p><p>Let's look at some common insects that transmit diseases. Sometimes the bites themselves can become sore and infected and need treatment, particularly if scratched.</p><p>Remember, if you suffer any illness upon returning home seek immediate medical attention and list the countries you have visited.</p>",
+                     "body": "<p>Malaria is the most well-known insect-borne disease. However, there are many more and not all are carried by the mosquito.</p><p>Let's look at some common insects that transmit diseases. Sometimes the bites themselves can become sore and infected and need treatment, particularly if scratched.</p><p>Remember, if you suffer any illness upon returning home, seek immediate medical attention and list the countries you have visited.</p>",
                      "ins": "<p></p>",
                      "slides": [
                         {
@@ -612,13 +612,13 @@
                         },
                         {
                            "title": "Flies",
-                           "body": "<p>Flies, including the horse, tsetse and sand fly, can transmit various diseases, such as Loa loa, sleeping sickness and leishmaniasis, depending on where you are in the world.</p>",
+                           "body": "<p>Flies, including the horse, tsetse and sand fly, can transmit various diseases, such as loa loa, sleeping sickness and leishmaniasis, depending on where you are in the world.</p>",
                            "_image": "images/s02_01/s02_01_2.jpg",
                            "_imageMobile": "images/s02_01/s02_01_2.jpg"
                         },
                         {
                            "title": "Ticks",
-                           "body": "<p>There are many species of tick which you may encounter through contact with grassland. They can spread Lyme disease, tick-borne encephalitis and various types of fever.</p><p>As well as transmitting disease, a tick bite can be extremely unpleasant resulting in soreness and inflammation.\nSelect the return to menu icon to continue.</p>",
+                           "body": "<p>There are many species of tick which you may encounter through contact with grassland. They can spread Lyme disease, tick-borne encephalitis and various types of fever.</p><p>As well as transmitting disease, a tick bite can be extremely unpleasant, resulting in soreness and inflammation.</p>",
                            "_image": "images/s02_01/s02_01_3.jpg",
                            "_imageMobile": "images/s02_01/s02_01_3.jpg"
                         }
@@ -640,17 +640,17 @@
                   "_id": "020-030",
                   "_component": "click-reveal-checks",
                   "content": {
-                     "content": "<p>The World Health Organization created the ABCD of malaria prevention to help educate travellers about malaria.</p>",
+                     "content": "<p></p>",
                      "ins": "<p>Click the four icons for more information</p>",
-                     "title": "ABCD of malaria prevention",
-                     "body": "<p></p>",
+                     "title": "ABCD of malaria prevention ",
+                     "body": "<p>The World Health Organisation created the ABCD of malaria prevention to help educate travellers about malaria.</p>",
                      "_image": "images/s02_03/s02_03_1.jpg",
                      "_alt": "",
                      "reveals": [
                         {
                            "checkTitle": "A",
                            "title": "Awareness of the risks",
-                           "content": "<p>Malaria is common in many parts of Africa, Asia, the Indian subcontinent, South America and some areas in the Far and Middle East. The risk is particularly high in sub-Saharan Africa. The time of year of travel can affect the risk, for example after seasonal rainfall. If you need further advice or if you are pregnant you should speak to your doctor or travel health clinic.</p>",
+                           "content": "<p>Malaria is common in many parts of Africa, Asia, the Indian subcontinent, South America and some areas in the Far and Middle East. The risk is particularly high in sub-Saharan Africa. The time of year of travel can affect the risk, for example, after seasonal rainfall. If you need further advice or if you are pregnant, you should speak to your doctor or travel health clinic.</p>",
                            "_image": "images/s02_03/s02_03_1.jpg",
                            "_alt": "",
                            "_imageMobile": "images/s02_03/s02_03_1.jpg"
@@ -658,7 +658,7 @@
                         {
                            "checkTitle": "B",
                            "title": "Bite prevention",
-                           "content": "<p>Bite prevention is important because if you aren\u2019t bitten by a mosquito you can\u2019t catch malaria. Mosquitoes that transmit malaria bite from dusk to dawn. Here are the main recommended measures:</p><ul><li>Wear loose clothing that covers the skin (ankles should be covered when sitting)</li><li>Use a proven repellent (such as minimum 30% DEET) and reapply as instructed</li><li>Close window screens, if available, and spray your room before you retire at night</li><li>Use air-conditioning and fans to keep them away</li><li>If you have a net, use it; ensure that there are no gaps and tuck it under your mattress</li></ul>",
+                           "content": "<p>Bite prevention is important because if you aren\u2019t bitten by a mosquito, you can\u2019t catch malaria. Mosquitoes that transmit malaria bite from dusk to dawn. Here are the main recommended measures:</p><ul><li>Wear loose clothing that covers the skin (ankles should be covered when sitting)</li><li>Use a proven repellent (such as minimum 30% DEET) and reapply as instructed</li><li>Close window screens, if available, and spray your room before you retire at night</li><li>Use air-conditioning and fans to keep them away</li><li>If you have a net, use it; ensure that there are no gaps and tuck it under your mattress</li></ul>",
                            "_image": "images/s02_03/s02_03_2.jpg",
                            "_alt": "",
                            "_imageMobile": "images/s02_03/s02_03_2.jpg"
@@ -666,7 +666,7 @@
                         {
                            "checkTitle": "C",
                            "title": "Check if you need antimalarial tablets",
-                           "content": "<p>Antimalarial tablets (you may see this expressed as Chemoprophylaxis) play an important role in protecting you. </p>",
+                           "content": "<p>Antimalarial tablets (you may see this expressed as Chemoprophylaxis) play an important role in protecting you. </p><p>There are different medications available that work in different ways and in different areas. Make sure you get the right ones for you and your destination. </p><p>Understand when you must take them; most start before travel and finish after return - always complete the course.</p>",
                            "_image": "images/s02_03/s02_03_3.png",
                            "_alt": "",
                            "_imageMobile": "images/s02_03/s02_03_3.jpg"
@@ -674,7 +674,7 @@
                         {
                            "checkTitle": "D",
                            "title": "Diagnosis",
-                           "content": "<p>Whilst prevention is very effective, there is still a slight chance you can contract malaria. </p>",
+                           "content": "<p>Whilst prevention is very effective, there is still a slight chance you can contract malaria. </p><p>Initially symptoms can seem flu-like and include a high temperature (fever), headache, sweats, chills and vomiting. If you experience any of these after return from a malarial country you must see your doctor urgently. Tell them where you have been and mention malaria. Remember, although malaria usually takes less than a month to incubate, sometimes it can take up to a year.</p>",
                            "_image": "images/s02_03/s02_03_4.jpg",
                            "_alt": "",
                            "_imageMobile": "images/s02_03/s02_03_4.jpg"
@@ -731,7 +731,7 @@
                   "_component": "text-image",
                   "content": {
                      "title": "High altitude",
-                     "body": "<p>When travelling to destinations higher than 2,400m (8,000ft) above sea level, the oxygen levels in the air have decreased enough to start causing some travellers problems. This is known as altitude sickness. </p><p>Symptoms include: </p><ul><li>Headache</li><li>Feeling tired</li><li>Loss of appetite</li><li>Nausea</li><li>Vomiting</li></ul><p>If you are concerned about yourself or a colleague, seek medical assistance immediately.  Severe altitude sickness can be fatal.</p><p>If you are travelling to a high altitude location consult your doctor, especially if you have any pre-existing conditions, such as diabetes, lung or heart disease.</p>",
+                     "body": "<p>When travelling to destinations higher than 2,400m (8,000ft) above sea level, the oxygen levels in the air have decreased enough to start causing some travellers problems. This is known as altitude sickness. </p><p>Symptoms include: </p><ul><li>Headache</li><li>Feeling tired</li><li>Loss of appetite</li><li>Nausea</li><li>Vomiting</li></ul><p>If you are concerned about yourself or a colleague, seek medical assistance immediately.  Severe altitude sickness can be fatal.</p><p>If you are travelling to a high altitude location, consult your doctor, especially if you have any pre-existing conditions, such as diabetes, lung or heart disease.</p>",
                      "_image": "images/03_02_image.jpg",
                      "_imageMobile": "images/03_02_image_mobile.jpg",
                      "_alt": "Mountain with snow on top with city below"
@@ -762,7 +762,7 @@
                   "_component": "text-image",
                   "content": {
                      "title": "Psychological effects",
-                     "body": "<p>When travelling there are many factors which may cause us to experience increased stress and anxiety. </p><p>Being in an unfamiliar location with potential language barriers can be an extremely stressful experience, especially if you feel alone and without a support network. </p><p>These experiences may trigger new mental health issues or intensify conditions you may already be living with. </p><p>If you experience any symptoms seek medical advice or see your doctor as soon as possible upon return. </p>",
+                     "body": "<p>When travelling, there are many factors which may cause us to experience increased stress and anxiety. </p><p>Being in an unfamiliar location with potential language barriers can be an extremely stressful experience, especially if you feel alone and without a support network. </p><p>These experiences may trigger new mental health issues or intensify conditions you may already be living with. </p><p>If you experience any symptoms, seek medical advice or see your doctor as soon as possible upon return. </p>",
                      "_image": "images/04_01_image.jpg",
                      "_imageMobile": "images/04_01_image_mobile.jpg",
                      "_alt": "Woman looking tired and stressed"
@@ -811,7 +811,7 @@
                      "_reviewPercent": 75,
                      "questions": [
                         {
-                           "stem": "As a business traveller what is more likely to cause a serious health problem? ",
+                           "stem": "As a business traveller, what is more likely to cause a serious health problem? ",
                            "options": [
                               {
                                  "title": "An accident",
@@ -850,7 +850,7 @@
                            ]
                         },
                         {
-                           "stem": "What should you do If you see a colleague who looks unwell whilst working outdoors in a hot climate?",
+                           "stem": "What should you do if you see a colleague who looks unwell whilst working outdoors in a hot climate?",
                            "options": [
                               {
                                  "title": "Ask them if they have sun cream on and have been drinking plenty of water",
@@ -863,7 +863,7 @@
                            ]
                         },
                         {
-                           "stem": "It is six months since you finished your antimalarial treatment and you get a flu-like fever, should you see your doctor and mention where you have been and that you suspect malaria?",
+                           "stem": "It is six months since you finished your antimalarial treatment and you get a flu-like fever. Should you see your doctor and mention where you have been and that you suspect malaria?",
                            "options": [
                               {
                                  "title": "Yes, malaria can sometimes take a year to incubate",
@@ -889,7 +889,7 @@
                            ]
                         },
                         {
-                           "stem": "As well as taking antimalarial drugs what else can you do reduce the risk of catching malaria?",
+                           "stem": "As well as taking antimalarial drugs, what else can you do to reduce the risk of catching malaria?",
                            "options": [
                               {
                                  "title": "Use a proven insect repellent",
@@ -928,7 +928,7 @@
                            "_image": "images/checklist.png",
                            "_href": "pdfs/Travelwise_Checklist.pdf"
                         },
-                        "fail": "<p>Unfortunately you didn\u2019t pass the quiz this time.</p><p>Please select the <strong>Retake quiz</strong> button to try again.</p>",
+                        "fail": "<p>Unfortunately you didn\u2019t pass the quiz this time.</p><p>Select <strong>Retake quiz</strong> button to try again.</p>",
                         "failScen": "<p>You scored {0}%</p><p>Unfortunately, you didn\u2019t pass the quiz this time. </p><p>Select <strong>Retake quiz</strong> to try again. </p>",
                         "retryBtn": "Retake quiz",
                         "checkBtn": "Check answers"
