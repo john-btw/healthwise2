@@ -757,7 +757,7 @@
       }
 
       .carousel-content-main {
-        width: 49%;
+        width: 50%;
         position: relative;
 
         z-index: 1000;

@@ -660,7 +660,10 @@
             flex: 1 1 auto;
             text-align: left;
             padding: 0 1em 0 2em;
-
+            display: flex;
+            align-items: center;
+            height: 10.28px;
+            min-height: -webkit-fill-available;
             @media #{$media-mobile} {
               padding: 0 0.5em 0 1em;
             }

@@ -297,7 +297,7 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5a6nDU5ICA5_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_02.png"
                   },
                   {
                      "_type": "selectable",
@@ -306,15 +306,15 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5eQhUInhotk_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_04.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6dhdu1nRijg_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_05.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6FV10sejkhi_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_06.png"
                   },
                   {
                      "_type": "selectable",
@@ -323,7 +323,7 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6GUqKqA51Fq_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_08.png"
                   },
                   {
                      "_type": "selectable",
@@ -336,7 +336,7 @@
                "_images": [
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6SC7MYdGMOI_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_01.png"
                   },
                   {
                      "_type": "selectable",
@@ -345,16 +345,16 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6CtK7L6fHVd_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_03.png"
                   },
                   {
                      "_type": "selectable",
                      "_image": "images/menu/insectborne/5fnLNVeMny4_DX680_DY680_CX340_CY265.png",
-                     "_id": "020-020"
+                     "_id": "020-080"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6GUqKqA51Fq_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_05.png"
                   },
                   {
                      "_type": "selectable",
@@ -363,7 +363,7 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/61dnGKgxMWZ_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_07.png"
                   },
                   {
                      "_type": "selectable",
@@ -372,7 +372,7 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6XErHyjIF5F_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_09.png"
                   }
                ]
             },
@@ -380,7 +380,7 @@
                "_images": [
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5efm5vF5wNe_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_01.png"
                   },
                   {
                      "_type": "selectable",
@@ -389,23 +389,23 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/604xErk5ghZ_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_03.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6Yq4tPnKOyO_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_04.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6pMisgqDIJ1_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_05.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6dhdu1nRijg_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_06.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5djzmWdu4fc_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_07.png"
                   },
                   {
                      "_type": "selectable",
@@ -414,7 +414,7 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6lPbePphJzB_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_09.png"
                   }
                ]
             },
@@ -422,15 +422,15 @@
                "_images": [
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/64zC90qSUqI_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_01.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6YNmzlw4HQd_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_02.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6loZNyeMAzF_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_03.png"
                   },
                   {
                      "_type": "selectable",
@@ -439,7 +439,7 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/604xErk5ghZ_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_05.png"
                   },
                   {
                      "_type": "selectable",
@@ -448,15 +448,15 @@
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/5hMfNMZkr7v_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_07.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6hvd9n3H36L_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_08.png"
                   },
                   {
                      "_type": "placeholder",
-                     "_image": "images/menu/6pMisgqDIJ1_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/placeholder_09.png"
                   }
                ]
             },
@@ -626,11 +626,11 @@
                   }
                },
                {
-                  "_id": "020-020",
+                  "_id": "020-080",
                   "_component": "text-image",
                   "content": {
                      "title": "Malaria introduction",
-                     "body": "<p>Malaria is a serious illness, common in many tropical countries. It is a parasite that is carried by mosquitoes and passes into the bloodstream when bitten.</p> <p>Malaria can be fatal, but if you take the correct precautions you can greatly reduce your risk of catching it. Anyone can contract malaria and it is important to remember you must take precautions against it every time you visit a country where it is present. </p> <p>No-one has full immunity to malaria and any partial protection you may have from being brought up in a malaria-endemic country is quickly lost when you live in countries without it.</p>",
+                     "body": "<p>Malaria is a serious illness, common in many tropical countries.</p><p>It is a parasite that is carried by mosquitoes and passes into the bloodstream when bitten.</p><p>Malaria can be fatal, but if you take the correct precautions you can greatly reduce your risk of catching it.</p><p>Anyone can contract malaria and it is important to remember you must take precautions against it every time you visit a country where it is present. </p><p>No-one has full immunity to malaria and any partial protection you may have from being brought up in a malaria-endemic country is quickly lost when you live in countries without it.</p>",
                      "_image": "images/02_02_image.jpg",
                      "_imageMobile": "images/02_02_image_mobile.jpg",
                      "_alt": "Map showing where Malaria risk is high"
