@@ -236,7 +236,7 @@
             "body": "<p>Select your preferred language below:</p>"
          },
          "complete": {
-            "body": "<p>Summary</p><p>Remember\u2026</p><p>\u2022\tIt is important to have pre-travel health checks\n\u2022\tPre-existing conditions and accidents cause many more medical emergencies than infectious diseases\n\u2022\tThoroughly prepare for your trip, understand the risks and take appropriate precautions\n\u2022\tRemember personal hygiene, especially hand washing, and food and water safety\n\u2022\tHave a number to call in an emergency (work, insurance or assistance) - save this in your phone and also carry an emergency card with the details\n\u2022\tConsider a first aid course and carry a first aid kit\n\u2022\tSeek advice about medical providers when abroad, standards vary enormously</p><p>You can print this summary from the resources section on the main menu.</p>"
+            "body": "<p>Summary</p><p>Remember\u2026</p><p>It is important to have pre-travel health checks</p><p>Pre-existing conditions and accidents cause many more medical emergencies than infectious diseases</p>"
          },
          "header": {
             "_display": false,
@@ -301,7 +301,7 @@
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/pretravel/5xM48Np2GTe_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/pretravel/01_02_image.png",
                      "_id": "010-020"
                   },
                   {
@@ -516,7 +516,7 @@
                      "reveals": [
                         {
                            "title": "Medical check",
-                           "content": "<p>Visit your doctor to travel health clinic 4-6 weeks prior to departure. Have a thorough check, especially if your destination country has poor medical infrastructure, extremes of weather or is at altitude.</p>",
+                           "content": "<p>Visit your doctor or travel health clinic 4-6 weeks prior to departure. Have a thorough check, especially if your destination country has poor medical infrastructure, extremes of weather or is at altitude.</p>",
                            "_image": "images/s01_03/s01_03_1.png",
                            "_imageVisited": "images/s01_03/s01_03_1_visited.png"
                         },
@@ -917,11 +917,11 @@
                      ],
                      "summary": {
                         "title": "How did you do?",
-                        "body": "<p>Please review the asterixed question(s), which show the correct answer.</p>",
+                        "body": "<p>Please review the asterixed question(s), which show the correct answer.</p><p>Summary</p><p>Remember\u2026</p><p>It is important to have pre-travel health checks</p><p>Pre-existing conditions and accidents cause many more medical emergencies than infectious diseases</p>",
                         "continueBtn": "Next"
                      },
                      "feedback": {
-                        "pass": "<p>You scored {0}%</p><p>Well done! You passed the quiz.</p><p>Don't forget to print off the checklist that will help you to remember everything covered in this course and stay Travel Wise. </p>",
+                        "pass": "<p>You scored {0}%</p><p>Well done! You passed the quiz.</p><p>Don't forget to print off the checklist that will help you to remember everything covered in this course and stay Health Wise. </p><h5>Summary</h5><p>Remember\u2026</p><ul><li>It is important to have pre-travel health checks</li><li>Pre-existing conditions and accidents cause many more medical emergencies than infectious diseases</li><li>Thoroughly prepare for your trip, understand the risks and take appropriate precautions</li><li>Remember personal hygiene, especially hand washing, and food and water safety</li><li>Have a number to call in an emergency (work, insurance or assistance) - save this in your phone and also carry an emergency card with the details</li><li>Consider a first aid course and carry a first aid kit</li><li>Seek advice about medical providers when abroad, standards vary enormously</li></ul><p>You can print this summary from the resources section on the main menu.</p>",
                         "passScen": "<p>You scored {0}%</p><p>Well done! You passed the quiz.</p><p>Don't forget to print off the downloadable leaflet that will help you to remember everything you covered in this course. Use it in conjunction with the Travel Wise checklist to keep healthy while travelling.  You can now close the course, or return to the menu if you wish to revisit any of the sections.</p>",
                         "passExtras": {
                            "title": "Download our handy checklist and print it two-sided",
