@@ -27,7 +27,7 @@
             role="button" tabindex="0"
             :aria-label="$store.state.courseContent.global._accessibility.checktitle + ' ' + (index+1)" >
               <h3 v-html="reveal.checkTitle" />
-              <div>
+              <div :class="{ 'visited': revealsVisited[index] === true }">
                 <img class="reveal-tick" src="~@/assets/images/icons/check-solid.svg" v-show="revealsVisited[index] === true"/>
               </div>
           </button>

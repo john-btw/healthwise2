@@ -292,7 +292,7 @@
                "_images": [
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/pretravel/5sNZEfjXUOM_DX680_DY680_CX340_CY265.png",
+                     "_image": "images/menu/pretravel/01_01_image.png",
                      "_id": "010-010"
                   },
                   {
@@ -385,7 +385,7 @@
                   {
                      "_type": "selectable",
                      "_id": "030-010",
-                     "_image": "images/menu/environmental/5y9In3cCb6G_DX680_DY680_CX340_CY265.png"
+                     "_image": "images/menu/environmental/03_01_image.png"
                   },
                   {
                      "_type": "placeholder",
@@ -409,8 +409,8 @@
                   },
                   {
                      "_type": "selectable",
-                     "_image": "images/menu/environmental/6Ii4ugsH1oo_DX680_DY680_CX340_CY265.png",
-                     "_id": "030-020"
+                     "_id": "030-020",
+                     "_image": "images/menu/environmental/03_02_image.png"
                   },
                   {
                      "_type": "placeholder",
@@ -487,7 +487,7 @@
                      "title": "Why be health wise?",
                      "body": "<p>Most serious travel health problems are due to pre-existing\nconditions. Also, accidents account for far more medical\nissues with travellers than infectious diseases. Whatever your\ndestination, there are practical steps you can take to ensure\nyou have a healthy and stress-free trip.</p><p>Whilst this course is designed to make you aware of the most common health issues travellers face, always bear in mind: <ul><li>Have regular health check-ups (medical and dental)</li><li>Speak to your doctor before travel if you have a pre-existing\nmedical condition, are pregnant or to ask if you are at\nheightened risk of certain conditions (for example DVT, or\nheart problems)</li><li>General conservative behaviour has health benefits, modest\ndress prevents insect bites, modest alcohol intake prevents\nthe accidents that often occur with intoxication</li><li>Pay attention to personal hygiene when travelling; washing\nyour hands frequently with soap and water can significantly\nreduce your risk of catching infectious diseases </li></ul></p>",
                      "_image": "images/01_01_image.jpg",
-                     "_imageMobile": "images/01_01_image_mobile.jpg",
+                     "_imageMobile": "images/01_01_image_mobile.png",
                      "_alt": "A helicopter landing pad"
                   }
                },
@@ -498,7 +498,7 @@
                      "title": "Research",
                      "body": "<p>When researching your trip, look at the medical risks for\nyour destination.</p><p>A list of these websites is in the resources section. These\nwill inform you about what health risks exist at your\ndestination and allow you to have an informed discussion\nwith your doctor or travel health clinic. If you don't have access to a medical information\nservice, there are many government sites that can\nadvise you.</p>",
                      "_image": "images/01_02_image.jpg",
-                     "_imageMobile": "images/01_02_image_mobile.jpg",
+                     "_imageMobile": "images/menu/pretravel/01_02_image_mobile.png",
                      "_alt": "a map of travel health on computer screen"
                   }
                },
@@ -669,7 +669,7 @@
                            "content": "<p>Antimalarial tablets (you may see this expressed as Chemoprophylaxis) play an important role in protecting you. </p><p>There are different medications available that work in different ways and in different areas. Make sure you get the right ones for you and your destination. </p><p>Understand when you must take them; most start before travel and finish after return - always complete the course.</p>",
                            "_image": "images/s02_03/s02_03_3.png",
                            "_alt": "",
-                           "_imageMobile": "images/s02_03/s02_03_3.jpg"
+                           "_imageMobile": "images/s02_03/s02_03_3.png"
                         },
                         {
                            "checkTitle": "D",
@@ -732,8 +732,8 @@
                   "content": {
                      "title": "High altitude",
                      "body": "<p>When travelling to destinations higher than 2,400m (8,000ft) above sea level, the oxygen levels in the air have decreased enough to start causing some travellers problems. This is known as altitude sickness. </p><p>Symptoms include: </p><ul><li>Headache</li><li>Feeling tired</li><li>Loss of appetite</li><li>Nausea</li><li>Vomiting</li></ul><p>If you are concerned about yourself or a colleague, seek medical assistance immediately.  Severe altitude sickness can be fatal.</p><p>If you are travelling to a high altitude location, consult your doctor, especially if you have any pre-existing conditions, such as diabetes, lung or heart disease.</p>",
-                     "_image": "images/03_02_image.jpg",
-                     "_imageMobile": "images/03_02_image_mobile.jpg",
+                     "_image": "images/menu/environmental/03_02_image.jpg",
+                     "_imageMobile": "images/menu/environmental/03_02_image_mobile.jpg",
                      "_alt": "Mountain with snow on top with city below"
                   }
                }
@@ -775,7 +775,7 @@
                      "title": "Safe sex",
                      "body": "<p>A large number of sexually transmitted infections (STIs) occur as a result of unprotected sexual intercourse during international travel. There is also a much higher incidence of more serious diseases such as HIV and hepatitis in developing countries.  </p><p>Condoms are the only contraceptives that provide reliable protection from STIs; purchase trustworthy brands prior to travel. </p>",
                      "_image": "images/04_02_image.jpg",
-                     "_imageMobile": "images/04_03_image_mobile.jpg",
+                     "_imageMobile": "images/04_02_image_mobile.jpg",
                      "_alt": "Packet of condoms in back pocket"
                   },
                   "_classes": "alternate-background"
