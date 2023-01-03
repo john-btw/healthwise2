@@ -17,6 +17,9 @@
         <div class="click-reveal-checks-title btw-title cell large-12 medium-12 small-12">
           <h4 v-if="element.content.title" v-html="element.content.title" />
           <div v-if="element.content.body" class=" btw-text cell large-12 medium-12 small-12" v-html="element.content.body" />
+          <div class="reveal-checks-ins-text btw-text flexbox" >
+            <div ref="bodyContent" v-html="setInstructions()" />
+          </div>
         </div>
 
         <div class="click-reveal-checks-items flexbox flexbox-row">
@@ -55,10 +58,6 @@
               <div :key="'body'+$data._revealIndex" v-html="contentBody" />
             </transition>
           </div>
-          <transition name="fade">
-          <div :key="$data._revealIndex" ref="bodyContent" v-show="viewedAll === true" class="carousel-body-text btw-text cell large-12 medium-12 small-12" v-html="setInstructions()" />
-          </transition>
-
         </div>
 
       </div>
@@ -131,21 +130,28 @@
       this.contentBody = this.element.content.reveals[this.$data._revealIndex].content;
     }
 
+    @Watch("viewedAll")
     private setInstructions() {
-      let ins = this.$store.state.courseContent.global.continueIns;
-      if (this.$store.state.device === 'phone') {
-        ins = this.$store.state.courseContent.global.continueMobileIns;
-      }
-      if(this.$store.state.device === 'phone' && this.$store.getters.checkIfLastScreenInPage(this.element._id)) {
-        ins = this.$store.state.courseContent.global.continueMobileLastIns;
-      }
-      const bodyElement = (this.$refs.bodyContent as Element);
+      let ins = "";
+      if(this.viewedAll !== true){
+        ins = this.element.content.ins;
+      } else {
+        ins = this.$store.state.courseContent.global.continueIns;
+        if (this.$store.state.device === 'phone') {
+          ins = this.$store.state.courseContent.global.continueMobileIns;
+        }
+        if(this.$store.state.device === 'phone' && this.$store.getters.checkIfLastScreenInPage(this.element._id)) {
+          ins = this.$store.state.courseContent.global.continueMobileLastIns;
+        }
+        const bodyElement = (this.$refs.bodyContent as Element);
       if(bodyElement) {
         const collection = document.getElementsByClassName("faded-out");
         for (let i = 0; i < collection.length; i++) {
           collection[i].classList.remove('faded-out');
         }
       }
+      }
+      return ins;
     }
 
     private showReveal(_index: number) {
@@ -191,6 +197,8 @@
 
       if(this.isActive === true) { 
         this.focusStart();
+
+        this.viewedAll = false;
 
         if (this.$store.state.device !== 'phone') {
           this.$data._revealIndex = -1;
