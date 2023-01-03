@@ -198,16 +198,16 @@
       if(this.isActive === true) { 
         this.focusStart();
 
-        this.viewedAll = false;
+        // this.viewedAll = false;
 
-        if (this.$store.state.device !== 'phone') {
-          this.$data._revealIndex = -1;
-          //reset viewed
-          this.element.content.reveals.forEach((item: any, index: number) => {
-              this.revealsVisited[index] = false;
-          });
-          Vue.set(this.revealsVisited, this.element.content.reveals.length-1, false);
-        }
+        // if (this.$store.state.device !== 'phone') {
+        //   this.$data._revealIndex = -1;
+        //   //reset viewed
+        //   this.element.content.reveals.forEach((item: any, index: number) => {
+        //       this.revealsVisited[index] = false;
+        //   });
+        //   Vue.set(this.revealsVisited, this.element.content.reveals.length-1, false);
+        // }
       }
       
     }
