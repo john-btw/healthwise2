@@ -386,18 +386,24 @@
     }
 
     private navigateTopic(_uri: string, _index: number) {
-      this.setTopicNumber(_index);
+      const pagesLength = this.$store.state.courseContent.topics[_index].pages.length;
+      if(pagesLength > 1) {
+        this.setTopicNumber(_index);
+      }
       if(_uri === '/quiz') {
         this.$store.state.topic = 0;
         this.$data._currentTopic = 0;
       }
-      const pagesLength = this.$store.state.courseContent.topics[_index].pages.length;
       if (!this.$store.getters.checkTopicLocked(_uri)) {
         if (this.$store.state.device !== 'phone') {
           if( pagesLength > 1) {
             //this.setTopicNumber(_index);
           }else {
-            this.navigateToScreen(_uri, this.$store.state.courseContent.topics[_index].pages[0]._slideIndex);
+            if(this.$store.state.courseContent.topics[_index].pages[0]._slideIndex) {
+              this.navigateToScreen(_uri, this.$store.state.courseContent.topics[_index].pages[0]._slideIndex);
+            } else {
+              this.navigateToScreen(_uri, this.$store.state.courseContent.topics[_index].pages[0]._id);
+            }
           }
           //focus on the topic sub menu
           Vue.nextTick(() => {
@@ -409,6 +415,7 @@
         }
       }
     }
+
 
     private navigateToScreen(_uri: string, _pageURI: string) {
       if(_pageURI || _uri === '/quiz') {

@@ -461,6 +461,14 @@
                ]
             },
             {
+               "_images": [
+                  {
+                     "_type": "launch",
+                     "_id": "060-010"
+                  }
+               ]
+            },
+            {
                "_lockedInfo": "<p>Complete the four topics first</p>"
             }
          ]
@@ -752,8 +760,8 @@
                   "_uri": "/environmental"
                },
                "next": {
-                  "title": "Quiz",
-                  "_uri": "/quiz"
+                  "title": "Summary",
+                  "_uri": "/summary"
                }
             },
             "pages": [
@@ -783,16 +791,47 @@
             ]
          },
          {
-            "_uri": "/quiz",
-            "title": "Quiz",
+            "_uri": "/summary",
+            "title": "Summary",
             "text": "&nbsp;",
             "_image": "images/menu/menu_mobile_5.jpg",
-            "_optional": true,
+            "_optional": false,
             "_component": "horizontal",
             "_navigation": {
                "prev": {
                   "title": "Personal wellbeing",
                   "_uri": "/personal"
+               },
+               "next": {
+                  "title": "Quiz",
+                  "_uri": "/quiz"
+               }
+            },
+            "pages": [
+               {
+                  "_id": "060-010",
+                  "_component": "text-image",
+                  "content": {
+                     "title": "Remember\u2026",
+                     "body": "<ul><li>It is important to have pre-travel health checks </li><li>Pre-existing conditions and accidents cause many more medical emergencies thank infecious diseases </li><li>Thoroughly prepare for your trip, understand the risks and take appropriate precautions </li><li>Remember personal hygiene, especially hand washing,and food and water safety </li><li>Have a number to call in emergency (work, insurance or assistance) - save this in your phone and also carry an emergency card with the details </li><li>Consider a first aid course and carry a first aid kit </li><li>Seek advice about medical providers when abroad, standards vary enormously </li><li>You can print this summary from the resources section on the main menu </li></ul>",
+                     "_image": "images/06_01_image.jpg",
+                     "_imageMobile": "images/06_01_image_mobile.jpg",
+                     "_alt": "Summary map and checklist"
+                  }
+               }
+            ]
+         },
+         {
+            "_uri": "/quiz",
+            "title": "Quiz",
+            "text": "&nbsp;",
+            "_image": "images/menu/menu_mobile_6.jpg",
+            "_optional": false,
+            "_component": "horizontal",
+            "_navigation": {
+               "prev": {
+                  "title": "Summary",
+                  "_uri": "/summary"
                }
             },
             "pages": [
@@ -939,12 +978,13 @@
                   }
                }
             ],
-            "_locked": true,
+            "_locked": false,
             "_unlockedBy": [
                "/pretravel",
-               "/insectborne",
-               "/environment",
-               "/personal"
+               " /insectborne",
+               " /environmental",
+               " /personal",
+               " /summary"
             ]
          }
       ]

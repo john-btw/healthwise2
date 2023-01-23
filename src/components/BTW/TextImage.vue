@@ -107,6 +107,7 @@
 
       if(this.isActive === true) {
         this.focusStart();
+        this.hideContentForAnimation();
       }
 
       if(this.isActive === true && this.$store.state.device !== 'phone') { 
